@@ -32,7 +32,7 @@ const OurProcess = () => {
           <div className="container">
             <div className="entry-banner-content breadcrumbs-area">
               <h1>Blog</h1>
-              {/* <p>At HOPE Clinic, we go above and beyond the clinical aspect and provide services that help you gain the most out of your healthcare experience.</p> */}
+              {/* <p>AtLorem Ipsum, we go above and beyond the clinical aspect and provide services that help you gain the most out of your healthcare experience.</p> */}
               {/* <Link href="#" className="btn-red theme-btn  mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal"><span>Get Started</span></Link> */}
             </div>
           </div>

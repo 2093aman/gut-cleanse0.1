@@ -4689,7 +4689,7 @@ a.temp-logo img {
 }
 
 .radborder {
-  background: #1a4789;
+  background: #015c93;
   width: 90px;
   height: 90px;
   border-radius: 50%;
@@ -8315,7 +8315,7 @@ div~ :last-child .call-to-action-box-layout5 {
 
 .departments-box-layout4:hover::before {
   content: "";
-  background: #1a4789bf;
+  background: #015c93;
   position: absolute;
   left: 0;
   right: 0;
@@ -12540,7 +12540,7 @@ section.call-to-action-wrap-layout4.bg-grey {
 [27] Footer Top Area Style
 =========================================================================*/
 footer {
-  background: #1a4789 url('../../public/map.png') top center no-repeat;
+  background: #03507e url('../../public/map.png') top center no-repeat;
   background-size: contain;
 }
 
@@ -13033,19 +13033,19 @@ footer {
 
 
 .bg-darkblue {
-  background: #1a4789
+  background: #015C93
 }
 
 .bg-darkred {
-  background: #ba1d24
+  background: #015C93
 }
 
 .bg-darkgreen {
-  background: #843783
+  background: #015C93
 }
 
 .bg-lightblue {
-  background: #1a478a;
+  background: #0191B6;
 }
 
 ul.counter-list {
@@ -13301,8 +13301,8 @@ section.bannerbelow-area {
   overflow: hidden;
   text-transform: uppercase;
   color: #fff;
-  border: 1px solid #ba1d24;
-  background: #ba1d24;
+  border: 1px solid #0191B6;
+  background: #0191B6;
   border-radius: 8px;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
@@ -13310,7 +13310,7 @@ section.bannerbelow-area {
 .btn-red:hover {
   box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
   color: #fff;
-  background: #ba1d2473;
+  background: #0191B6;
 }
 
 .btn-red::before {
@@ -16587,8 +16587,8 @@ ul.event-details-list li {
   overflow: hidden;
   text-transform: uppercase;
   color: #fff;
-  border: 1px solid #ba1d24;
-  background: #ba1d24;
+  border: 1px solid #0191b6;
+  background: #0191b6;
   border-radius: 0px;
 
 }

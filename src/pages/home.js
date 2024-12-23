@@ -153,7 +153,7 @@ const home = () => {
                         <div className="col-xl-6 col-lg-6 pb-10">
                             <div className="about-right pt-15 mb-30 homeab" data-aos="fade-right">
                                 <div className="section-title-2 mb-20">
-                                    <h2>About HOPE Clinic</h2>
+                                    <h2>AboutLorem Ipsum</h2>
                                 </div>
                                 <div className="about-text pr-5">
                                     <p>Our clinic is exactly what we think healthcare should be in the United States, and that starts with accepting multiple payment options and working with those who are underinsured or uninsured. <br /><br /> We are an affordable  clinic in Houston, TX, because we believe money should never stand between you and the care you deserve.</p>
@@ -352,12 +352,12 @@ const home = () => {
                                     </div>
 
                                     <div>
-                                        <p>&quot;From the front desk to the vitals check to the Lab Tech, and last but not least, the Awesome Provider, this HOPE Clinic staff of friendly professionals is totally fantastic, couldn’t get better in my opinion, Thank you all ladies!&quot;</p>
+                                        <p>&quot;From the front desk to the vitals check to the Lab Tech, and last but not least, the Awesome Provider, thisLorem Ipsum staff of friendly professionals is totally fantastic, couldn’t get better in my opinion, Thank you all ladies!&quot;</p>
                                         <p><b>Ashley Tran  </b></p>
                                     </div>
 
                                     <div>
-                                        <p>&quot;It is the second visit I have made, and I am very happy with the service, and the doctor, I plan to change with my family and continue with HOPE Clinic for my visits each year, and my primary doctors, thank you!&quot;</p>
+                                        <p>&quot;It is the second visit I have made, and I am very happy with the service, and the doctor, I plan to change with my family and continue withLorem Ipsum for my visits each year, and my primary doctors, thank you!&quot;</p>
                                         <p><b>Angela Lopez</b></p>
                                     </div>
                                 </Carousel>
