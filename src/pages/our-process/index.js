@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import Link from 'next/link';
 
-const ourProcess = () => {
+const OurProcess = () => {
 
 	useEffect(() => {
 		AOS.init();
@@ -260,4 +260,4 @@ const ourProcess = () => {
 	)
 }
 
-export default ourProcess;
+export default OurProcess;
