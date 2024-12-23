@@ -65,11 +65,11 @@ const About = () => {
                         <div className="col-xl-5 col-lg-5">
                             <div className="about-right pt-15 mb-30"  data-aos="slide-up">
                                 <div className="section-title-2 mb-20">
-                                   <h1>About HOPE Clinic</h1>
+                                   <h1>AboutLorem Ipsum</h1>
                                 </div>
                                 <div className="about-text pr-5">
-                                    <p><b>HOPE Clinic is a full-time Federally Qualified Health Center (FQHC), serving over 20,000 unique patients with over 100,000 patient visits per year. HOPE Clinic provides health care services to all people, regardless of the patient’s ability to pay. In particular, HOPE Clinic serves the uninsured, under-insured, those with limited English proficiency, and low-income patients. </b></p>
-									<p>A unique characteristic of HOPE Clinic is its capacity to provide services in 30 different languages, including: Mandarin, Cantonese, Vietnamese, Korean, Burmese, Arabic, and Spanish. HOPE Clinic’s mission is to provide quality healthcare without any prejudice to all people of Greater Houston in a culturally and linguistically competent manner.
+                                    <p><b>HOPE Clinic is a full-time Federally Qualified Health Center (FQHC), serving over 20,000 unique patients with over 100,000 patient visits per year.Lorem Ipsum provides health care services to all people, regardless of the patient’s ability to pay. In particular,Lorem Ipsum serves the uninsured, under-insured, those with limited English proficiency, and low-income patients. </b></p>
+									<p>A unique characteristic ofLorem Ipsum is its capacity to provide services in 30 different languages, including: Mandarin, Cantonese, Vietnamese, Korean, Burmese, Arabic, and Spanish.Lorem Ipsum’s mission is to provide quality healthcare without any prejudice to all people of Greater Houston in a culturally and linguistically competent manner.
 																		
 									</p>
                                 </div>
