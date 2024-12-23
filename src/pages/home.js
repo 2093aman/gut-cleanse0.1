@@ -65,7 +65,7 @@ const home = () => {
 
             <div className="banner-section">
                 <ReactPlayer
-                    url="home/homevideo.mp4"
+                    url="home/homevideoiuu.mp4"
                     playing={true}
                     autoplaying={true}
                     loop={true}
@@ -143,7 +143,8 @@ const home = () => {
                                     <div className="about-author-Image">
                                         <Image src="/hohg.jpg" alt="aboutus" width={0} height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }} />
                                         <Image src="/hodown.jpg" alt="aboutus" width={0} height={0} sizes="100vw" className='homedown' style={{ width: 'auto', height: 'auto' }} />
-                                        <div className="circle-Image"> <Image src="/circle-logo.png" alt="circle-logo" width={0} height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }} /></div>
+                                        <div className="circle-Image">
+                                            </div>
                                     </div>
 
                                 </div>
@@ -369,7 +370,7 @@ const home = () => {
                 </div>
             </section>
 
-            <section className="bannerbelow-area carouselSlider">
+            {/* <section className="bannerbelow-area carouselSlider">
 
                 <div className="container-fluid">
                     <div className="row">
@@ -399,7 +400,7 @@ const home = () => {
 
                     </div>
                 </div>
-            </section>
+            </section>           */}
 
             <section className="call-to-action-wrap-layout4">
                 <div className="item-Image">

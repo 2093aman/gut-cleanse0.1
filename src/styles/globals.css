@@ -977,7 +977,8 @@ ul {
 }
 
 a.temp-logo img {
-  width: 130px !important;
+  width: 100% !important;
+  margin-bottom: 14px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -11323,7 +11324,7 @@ section.call-to-action-wrap-layout4.bg-grey {
   text-transform: capitalize;
   font-size: 46px;
   font-weight: bold;
-  color: #fff;
+  color: #03507e;
   margin-bottom: 6px;
 }
 
@@ -12549,7 +12550,7 @@ footer {
 }
 
 .footer-top-wrap {
-  padding: 60px 0px 38px;
+  padding: 60px 0px 0px;
 }
 
 .footer-box {
@@ -14140,43 +14141,44 @@ section.bannerbelow-area {
   background-position: top !important;
 }
 
-.entry-banner.bg-common.bg-Image.teamimage {
+.aboutimg {
   z-index: 2;
   position: relative;
-  /* background:url(../../public/BH-Deptw-122.jpg) top center no-repeat; */
+  background:url(../../public/aboutrr.jpg) top center no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.entry-banner.bg-common.bg-Image.awards {
+.bgservices {
   z-index: 2;
   position: relative;
-  /* background:url(../../public/anual.png) top center no-repeat; */
+  background:url(../../public/servicebg.jpg) top center no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.entry-banner.bg-common.bg-Image.newsss {
+.processBg{
   z-index: 2;
   position: relative;
-  /* background:url(../../public/newssss-trr.png) top center no-repeat; */
+  background:url(../../public/processbg.jpg) top center no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.entry-banner.entry-banner-after.bg-common.events.eventfd {
+.blogsBg {
   z-index: 2;
   position: relative;
-  /* background:url(../../public/wwsede.png) top center no-repeat;   */
+  background:url(../../public/blogs.jpg) top center no-repeat;  
   background-size: cover;
   background-position: center;
 }
 
-.entry-banner.bg-common.bg-Image.board-member {
+.contactBg{
   z-index: 2;
   position: relative;
-  /* background:url(../../public/Board-Member-new.jpeg)  top center no-repeat; */
-  background-size: cover
+  background:url(../../public/contav.jpg) center no-repeat;
+  background-size: cover;
+  
 }
 
 .programsBg {
@@ -14273,7 +14275,7 @@ h3.heading3 {
 
 
 .entry-banner .inner-page-banner:before {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(99 112 115 / 43%);
   content: "";
   height: 100%;
   width: 100%;
@@ -16674,7 +16676,7 @@ ul.event-details-list li {
   top: -20px;
   height: 100%;
   z-index: 3;
-  border: 3px solid #2ccfbb;
+  border: 3px solid #0191b6;
   -webkit-box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.08);
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.08);
   pointer-events: none;
@@ -16685,7 +16687,7 @@ ul.event-details-list li {
 }
 
 .event-date {
-  color: #2ccfbb;
+  color: #000;
   font-size: 60px;
   margin-right: 10px;
 }
@@ -16695,7 +16697,7 @@ ul.event-details-list li {
   letter-spacing: 0.05em;
   font-weight: 700;
   text-transform: uppercase;
-  color: #2ccfbb;
+  color: #000;
 }
 
 .right {
@@ -16762,7 +16764,7 @@ ul.event-details-list li {
 }
 
 .register-btn {
-  border: 2px solid #2ccfbb;
+  border: 2px solid #0191b6;
   color: #151515 !important;
   font-weight: 600;
   font-size: 14px;

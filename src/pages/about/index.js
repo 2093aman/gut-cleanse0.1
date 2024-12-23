@@ -21,8 +21,8 @@ const About = () => {
  
     <div>
 	 
-      <div className="entry-banner entry-banner-after  bg-common aboutvideo">
-			<ReactPlayer
+      <div className="entry-banner entry-banner-after  bg-common aboutimg">
+			{/* <ReactPlayer
 					url="/video3.mp4"
 					playing={true}
 					autoplaying={true}
@@ -33,7 +33,7 @@ const About = () => {
 					height={"100%"}
 					webkit-playsinline={true}
 				  
-			/>
+			/> */}
 			<div className="inner-page-banner breadcrumbs-off">	
 			
 			<div className="container">
@@ -59,7 +59,7 @@ const About = () => {
                         <div className="col-xl-7 col-lg-7">
                             <div className="position-relative pr-50"  data-aos="slide-up">
 
-							 <Image src="/abt.jpg" alt="about" className="img-fluid radisuImage" width={0}  height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }}/>						  
+							 <Image src="/abouttt.jpg" alt="about" className="img-fluid radisuImage" width={0}  height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }}/>						  
 							</div>
                         </div>
                         <div className="col-xl-5 col-lg-5">
@@ -135,22 +135,22 @@ const About = () => {
 							</div>
 					</div>	
 					
-					<div className="col-lg-4 col-sm-6 serv1">
+					{/* <div className="col-lg-4 col-sm-6 serv1">
 								<div className="services-content" data-aos="slide-up">
 								<div className="icon-circle pulse"><Image src="/collaboration.png" alt="collaboration" width={0}  height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }} /></div>
 								<h3>Collaboration</h3>
 								<p>We value external and internal teamwork, realizing that together, we all achieve more.</p>
 							</div>
-					</div>	
+					</div>	 */}
 					
-					<div className="col-lg-4 col-sm-6 serv1">
+					{/* <div className="col-lg-4 col-sm-6 serv1">
 								<div className="services-content" data-aos="slide-up" width={0}  height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }}>
 								<div className="icon-circle pulse"><Image src="/cultural-activities.png" alt="cultural-activities" width={0}  height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }}/></div>
 								<h3>Cultural Competence</h3>
 								<p>We strive to understand and adequately serve all patients, regardless of custom, culture or language spoken.</p>
 							</div>
 					</div>	
-					
+					 */}
 						
 					
 					

@@ -20,7 +20,7 @@ const OurProcess = () => {
 
 		<div>
 
-			<div className="entry-banner entry-banner-after  bg-common ">
+			<div className="entry-banner entry-banner-after  bg-common processBg ">
                             <ReactPlayer
                                 url="/video2.mp4"
                                 playing={true}
