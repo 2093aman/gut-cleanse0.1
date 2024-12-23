@@ -21,8 +21,8 @@ const Service = () => {
 
 		<div>
 
-			<div className="entry-banner entry-banner-after  bg-common ">
-				<ReactPlayer
+			<div className="entry-banner entry-banner-after  bg-common bgservices ">
+				{/* <ReactPlayer
 					url="/video2.mp4"
 					playing={true}
 					autoplaying={true}
@@ -33,7 +33,7 @@ const Service = () => {
 					height={"100%"}
 					webkit-playsinline={true}
 
-				/>
+				/> */}
 				<div className="inner-page-banner breadcrumbs-off">
 					<div className="container">
 						<div className="entry-banner-content breadcrumbs-area">
@@ -349,7 +349,7 @@ const Service = () => {
 								<div className="about-author d-flex align-items-center">
 									<div className="about-author-Image">
 										<Image src="/aboutus.webp" alt="aboutus" width={0} height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }} />
-										<div className="circle-Image"> <Image src="/circle-logo.png" alt="circle-logo" width={0} height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }} /></div>
+										{/* <div className="circle-Image"> <Image src="/circle-logo.png" alt="circle-logo" width={0} height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }} /></div> */}
 									</div>
 
 								</div>

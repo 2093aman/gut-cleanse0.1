@@ -30,7 +30,7 @@ const Navbar = () => {
           <div class="d-flex justify-content-between align-items-center p-4">
             <a href="/" className="temp-logo">
               <Image
-                src="/home/logotic.jpeg"
+                src="/home/logore.jpeg"
                 alt="logo"
                 className="img-fluid"
                 width={0}
@@ -119,20 +119,20 @@ const Navbar = () => {
 
         <div className="header-top-bar   d-none d-md-block">
           <div className="container">
-            <div className="row">
+            <div className="row pb-20">
               <div className="col-xl-8 col-lg-12 col-md-12 col-12 header-contact-layout1">
                 <div className="marquee">
                   {" "}
                   <p>
                     To contact your healthcare provider after hours, or when the
-                    clinic is closed, please call (713) 773-0803.
+                    clinic is closed, please call 1234567890.
                   </p>
                 </div>
               </div>
               <div className="col-xl-4 d-none d-xl-block">
                 <ul className="header-social-layout1">
 
-                <b> Call Us: (713) 773-0803</b>
+                <b> Call Us: 1234567890</b>
                   <li>
                  
                   </li>
@@ -148,7 +148,7 @@ const Navbar = () => {
               <div className="col-lg-2 col-md-2 logo-area-layout1">
                 <a href="/" className="temp-logo">
                   <Image
-                    src="/logoblack.png"
+                    src="/logore.jpeg"
                     alt="logo"
                     className="img-fluid"
                     width={0}
