@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import Link from 'next/link';
 
-const login = () => {
+const Login = () => {
 
 	useEffect(() => {
 		AOS.init();
@@ -93,4 +93,4 @@ const login = () => {
 	)
 }
 
-export default login;
+export default Login;
