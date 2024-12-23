@@ -30,7 +30,7 @@ const Navbar = () => {
           <div class="d-flex justify-content-between align-items-center p-4">
             <a href="/" className="temp-logo">
               <Image
-                src="/logoblack.png"
+                src="/home/logotic.jpeg"
                 alt="logo"
                 className="img-fluid"
                 width={0}
