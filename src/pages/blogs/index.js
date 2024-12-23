@@ -16,8 +16,8 @@ const OurProcess = () => {
 
   return (
     <>
-      <div className="entry-banner entry-banner-after  bg-common ">
-        <ReactPlayer
+      <div className="entry-banner entry-banner-after  bg-common blogsBg ">
+        {/* <ReactPlayer
           url="/video2.mp4"
           playing={true}
           autoplaying={true}
@@ -27,7 +27,7 @@ const OurProcess = () => {
           width={"100%"}
           height={"100%"}
           webkit-playsinline={true}
-        />
+        /> */}
         <div className="inner-page-banner breadcrumbs-off">
           <div className="container">
             <div className="entry-banner-content breadcrumbs-area">

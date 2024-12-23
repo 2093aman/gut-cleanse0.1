@@ -53,13 +53,13 @@ const Footer = () => {
   return (
     <div>
       <div
-        className="modal fade requestForm"
+        className="modal fade requestForm "
         id="exampleModal"
         tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div className="modal-dialog">
+        <div className="modal-dialog pt-5">
           <div className="modal-content">
             <div className="modal-header">
               <h5 className="modal-title" id="exampleModalLabel">
@@ -170,15 +170,7 @@ const Footer = () => {
                       <br />
                       <br />
                     </p>
-                    <Image
-                      src="/hrsa-logo.png"
-                      alt="logo"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: "158px", height: "auto" }}
-                      className="img-fluid"
-                    />
+                   
                   </div>
                 </div>
               </div>

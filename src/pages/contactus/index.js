@@ -56,7 +56,7 @@ const Contactindex = () => {
 
   return (
     <div>
-      <div className="entry-banner entry-banner-after bg-common bg-Image">
+      <div className="entry-banner entry-banner-after bg-common bg-Image contactBg">
         <div className="inner-page-banner breadcrumbs-off">
           <div className="container">
             <div className="entry-banner-content breadcrumbs-area">
