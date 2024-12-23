@@ -52,8 +52,8 @@ const News = () => {
                             <div className="teaminfo" data-aos="slide-up">
 							 <Image src="/news2.jpg" alt="news1" className="img-fluid" width={0}  height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }}/>
 							  <h4>Brother and Sister Donate to Leave Your Legacy Campaign</h4>
-							  <p className="author-position">by HOPE Clinic | Feb 21, 2022</p>
-							  <p>Construction is underway at HOPE Clinic&apos;s new location, the T.T. and W.F. Chao Foundation HOPE Health and Wellness Center! The `&quotLeave Your Legacy`&quot brick. </p>
+							  <p className="author-position">byLorem Ipsum | Feb 21, 2022</p>
+							  <p>Construction is underway atLorem Ipsum&apos;s new location, the T.T. and W.F. Chao Foundation HOPE Health and Wellness Center! The `&quotLeave Your Legacy`&quot brick. </p>
 							  <Link class="btn-red " href="/news-detail">Read More</Link>
 							</div>
                         </div>
@@ -78,9 +78,9 @@ const News = () => {
 						<div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="teaminfo" data-aos="slide-up">
 							 <Image src="/news5.jpg" alt="news1" className="img-fluid" width={0}  height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }}/>
-							  <h4>Dr. Kristen Roeder Leaving HOPE Clinic</h4>
-							  <p className="author-position">by HOPE Clinic | Jan 4, 2022</p>
-							  <p>Thank you for choosing HOPE Clinic West as the provider for your family’s health and wellness needs. As in any career or business</p>
+							  <h4>Dr. Kristen Roeder LeavingLorem Ipsum</h4>
+							  <p className="author-position">byLorem Ipsum | Jan 4, 2022</p>
+							  <p>Thank you for choosingLorem Ipsum West as the provider for your family’s health and wellness needs. As in any career or business</p>
 							  <Link class="btn-red " href="/news-detail">Read More</Link>
 							</div>
                         </div>
@@ -88,8 +88,8 @@ const News = () => {
                             <div className="teaminfo" data-aos="slide-up">
 							 <Image src="/news4.jpg" alt="news1" className="img-fluid" width={0}  height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }}/>
 							  <h4>HOPE Clinic on VIETV</h4>
-							  <p className="author-position">by HOPE Clinic | Dec 3, 2021</p>
-							  <p>Recently HOPE Clinic&apos;s Outreach Specialist Yen Ly joined VIETV to discuss the services offered at HOPE Clinic, the COVID vaccine, and the upcoming T.T. </p>
+							  <p className="author-position">byLorem Ipsum | Dec 3, 2021</p>
+							  <p>RecentlyLorem Ipsum&apos;s Outreach Specialist Yen Ly joined VIETV to discuss the services offered atLorem Ipsum, the COVID vaccine, and the upcoming T.T. </p>
 							  <Link class="btn-red " href="/news-detail">Read More</Link>
 							</div>
                         </div>
