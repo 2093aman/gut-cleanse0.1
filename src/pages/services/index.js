@@ -233,7 +233,7 @@ const Service = () => {
                   <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
                   <p>
                     768 Fifth Avenue New York, <br />
-                    NY 10019 <span>|</span> The Plaza Center
+                    NY 1019 <span>|</span> The Plaza Center
                   </p>
                 </div>
 				<div className="priceing-even">
