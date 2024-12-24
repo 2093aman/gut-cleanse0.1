@@ -141,8 +141,8 @@ const home = () => {
                             <div className="about-left pos-rel mb-30" data-aos="fade-up">
                                 <div className="about-author d-flex align-items-center">
                                     <div className="about-author-Image">
-                                        <Image src="/hohg.jpg" alt="aboutus" width={0} height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }} />
-                                        <Image src="/hodown.jpg" alt="aboutus" width={0} height={0} sizes="100vw" className='homedown' style={{ width: 'auto', height: 'auto' }} />
+                                        <Image src="/homebout.webp" alt="aboutus" width={0} height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }} />
+                                        <Image src="/homedown.webp" alt="aboutus" width={0} height={0} sizes="100vw" className='homedown' style={{ width: 'auto', height: 'auto' }} />
                                         <div className="circle-Image">
                                             </div>
                                     </div>
@@ -154,7 +154,7 @@ const home = () => {
                         <div className="col-xl-6 col-lg-6 pb-10">
                             <div className="about-right pt-15 mb-30 homeab" data-aos="fade-right">
                                 <div className="section-title-2 mb-20">
-                                    <h2>AboutLorem Ipsum</h2>
+                                    <h2>About</h2>
                                 </div>
                                 <div className="about-text pr-5">
                                     <p>Our clinic is exactly what we think healthcare should be in the United States, and that starts with accepting multiple payment options and working with those who are underinsured or uninsured. <br /><br /> We are an affordable  clinic in Houston, TX, because we believe money should never stand between you and the care you deserve.</p>
@@ -219,7 +219,7 @@ const home = () => {
                         </div>
                     </div>
                     <div className="item-inner-wrapper" data-aos="fade-up">
-                        <Image src="/Health-home.jpg" width={0} height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }} alt="aboutus1" />
+                        <Image src="/Health-home.webp" width={0} height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }} alt="aboutus1" />
                     </div>
                 </div>
 
