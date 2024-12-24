@@ -242,7 +242,7 @@ const Service = () => {
                       <h4>Price</h4>
                     </div>
                     <div className="col-md-4">
-                      <p>$56784</p>
+                      <p>$5678r4</p>
                     </div>
                   </div>
                 </div>
