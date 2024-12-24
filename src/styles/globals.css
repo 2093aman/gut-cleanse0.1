@@ -622,7 +622,7 @@ ul {
   width: 50px;
   left: -30px;
   bottom: 0;
-  background-color: #ba1d24;
+  background-color: #0191B6;
   z-index: 10;
   -webkit-transition: all 0.1s ease-out;
   -moz-transition: all 0.1s ease-out;
@@ -640,7 +640,7 @@ ul {
 }
 
 .template-main-menu nav>ul>li ul.dropdown-menu-col-1 {
-  border-top: 1px solid #ba1d24;
+  border-top: 1px solid #0191B6;
   background-color: #ffffff;
   width: 250px;
   visibility: hidden;
@@ -678,7 +678,7 @@ ul {
 
 .template-main-menu nav>ul>li ul.dropdown-menu-col-1 li a:hover {
   color: #ffffff;
-  background-color: #ba1d24;
+  background-color: #0191B6;
 }
 
 .abutHomebtn {
@@ -686,7 +686,7 @@ ul {
 }
 
 .template-main-menu nav>ul>li ul.dropdown-menu-col-2 {
-  border-top: 1px solid #ba1d24;
+  border-top: 1px solid #0191B6;
   background-color: #ffffff;
   width: 480px;
   opacity: 0;
@@ -989,7 +989,7 @@ a.temp-logo img {
 
 .header-menu-layout1 .template-main-menu nav>ul>li>a:hover {
   animation: toBottomFromTop10 0.3s forwards;
-  color: #ba1d24;
+  color: #0191B6;
 }
 
 .header-menu-layout2 {
@@ -4642,13 +4642,13 @@ a.temp-logo img {
 
 .call-to-action-box-layout4 .call-to-action-btn .item-btn {
   border: 1px solid;
-  border-color: #ba1d24;
+  border-color: #0191B6;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  background-color: #ba1d24;
+  background-color: #0191B6;
   text-transform: initial;
   color: #ffffff;
   padding: 14px 25px;
@@ -8301,9 +8301,9 @@ div~ :last-child .call-to-action-box-layout5 {
 
 .item-btn {
   border: 1px solid;
-  border-color: #ba1d24;
+  border-color: #0191B6;
   border-radius: 4px;
-  background-color: #ba1d24;
+  background-color: #0191B6;
   text-transform: initial;
   color: #ffffff;
   padding: 14px 25px;
@@ -12738,7 +12738,7 @@ footer {
 }
 
 .footer-box .footer-departments li a:hover {
-  color: #ba1d24;
+  color: #0191B6;
 }
 
 .footer-box .footer-quick-link li {
@@ -12766,7 +12766,7 @@ footer {
 }
 
 .footer-box .footer-quick-link li a:hover {
-  color: #ba1d24;
+  color: #0191B6;
 }
 
 .footer-box .footer-opening-hours li {
@@ -13004,7 +13004,7 @@ footer {
 }
 
 .footer-bottom-wrap a:hover {
-  color: #ba1d24;
+  color: #0191B6;
 }
 
 .footer-bottom-wrap .copyright a {
@@ -13073,13 +13073,15 @@ ul.counter-list li p {
 }
 
 .about-area {
-  background: #fff url('../../public/aboutbg.png') no-repeat;
+  background: url('../../public/aboutbg.png') no-repeat;
   background-size: cover;
 }
 
 .leftbxImage {
   background: #000 url('../../public/leftbx-img.png') no-repeat;
   background-size: cover;
+  padding: 50px 0px;
+  height: 476px;
 }
 
 .bannerbelow-area h3 {
@@ -13159,13 +13161,13 @@ ul.counter-list li p {
 
 .item-btn-red {
   border: 1px solid;
-  border-color: #ba1d24;
+  border-color: #0191B6;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  background-color: #ba1d24;
+  background-color: #0191B6;
   text-transform: initial;
   color: #ffffff;
   padding: 14px 25px;
@@ -13320,7 +13322,7 @@ section.bannerbelow-area {
   width: 0;
   height: 50%;
   transition: all 0.3s ease-in;
-  background: linear-gradient(66.75deg, #ba1d24 0.87%, #872c2c 100%);
+  background: linear-gradient(66.75deg, #0191B6 0.87%, #015C93 100%);
   z-index: -1;
   top: 0;
   left: 0;
@@ -13332,7 +13334,7 @@ section.bannerbelow-area {
   width: 0;
   height: 50%;
   transition: all 0.3s ease-in;
-  background: linear-gradient(66.75deg, #ba1d24 0.87%, #872c2c 100%);
+  background: linear-gradient(66.75deg, #0191B6 0.87%, #015C93 100%);
   z-index: -1;
   bottom: 0;
   right: 0;
@@ -13340,12 +13342,12 @@ section.bannerbelow-area {
 
 .btn-red:hover::before {
   width: 100%;
-  background: linear-gradient(66.75deg, #ba1d24 0.87%, #872c2c 100%);
+  background: linear-gradient(66.75deg, #0191B6 0.87%, #015C93 100%);
 }
 
 .btn-red:hover::after {
   width: 100%;
-  background: linear-gradient(66.75deg, #ba1d24 0.87%, #872c2c 100%);
+  background: linear-gradient(66.75deg, #0191B6 0.87%, #015C93 100%);
 }
 
 .btn-green {
@@ -13360,8 +13362,8 @@ section.bannerbelow-area {
   letter-spacing: .1em;
   overflow: hidden;
   text-transform: uppercase;
-  color: #ba1d24;
-  border: 1px solid #ba1d24;
+  color: #0191B6;
+  border: 1px solid #0191B6;
   border-radius: 8px;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
@@ -13372,7 +13374,7 @@ section.bannerbelow-area {
   width: 0;
   height: 50%;
   transition: all 0.3s ease-in;
-  background: linear-gradient(66.75deg, #ba1d24 0.87%, #14192d 100%);
+  background: linear-gradient(66.75deg, #0191B6 0.87%, #14192d 100%);
   z-index: -1;
   top: 0;
   left: 0;
@@ -13384,7 +13386,7 @@ section.bannerbelow-area {
   width: 0;
   height: 50%;
   transition: all 0.3s ease-in;
-  background: linear-gradient(100deg, #ba1d24 0.87%, #14192d 100%);
+  background: linear-gradient(100deg, #0191B6 0.87%, #14192d 100%);
   z-index: -1;
   bottom: 0;
   right: 0;
@@ -13415,7 +13417,7 @@ section.bannerbelow-area {
 }
 
 .fancybox-item .fancybox-body .weeklist a.link {
-  color: #ba1d24;
+  color: #0191B6;
 }
 
 .btn-red .btn-title {
@@ -14144,7 +14146,7 @@ section.bannerbelow-area {
 .aboutimg {
   z-index: 2;
   position: relative;
-  background:url(../../public/aboutrr.jpg) top center no-repeat;
+  background: url(../../public/aboutrr.jpg) top center no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -14152,15 +14154,15 @@ section.bannerbelow-area {
 .bgservices {
   z-index: 2;
   position: relative;
-  background:url(../../public/servicebg.jpg) top center no-repeat;
+  background: url(../../public/servicebg.jpg) top center no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.processBg{
+.processBg {
   z-index: 2;
   position: relative;
-  background:url(../../public/processbg.jpg) top center no-repeat;
+  background: url(../../public/processbg.jpg) top center no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -14168,17 +14170,17 @@ section.bannerbelow-area {
 .blogsBg {
   z-index: 2;
   position: relative;
-  background:url(../../public/blogs.jpg) top center no-repeat;  
+  background: url(../../public/blogs.jpg) top center no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.contactBg{
+.contactBg {
   z-index: 2;
   position: relative;
-  background:url(../../public/contav.jpg) center no-repeat;
+  background: url(../../public/contav.jpg) center no-repeat;
   background-size: cover;
-  
+
 }
 
 .programsBg {
@@ -14838,7 +14840,7 @@ img.radisuImage {
 }
 
 .serviceWrapper .single-services .services-content a.link:hover {
-  color: #ba1d24
+  color: #0191B6
 }
 
 .services-Image::after {
@@ -15178,7 +15180,7 @@ img.radisuImage {
 
 .teaminfo p.author-position {
   font-size: 14px;
-  color: #ba1d24;
+  color: #0191B6;
 }
 
 .footer-box .footlogo {
@@ -15204,12 +15206,12 @@ img.radisuImage {
 }
 
 .accordion__button:hover {
-  background-color: #ba1d24 !important;
+  background-color: #0191B6 !important;
 }
 
 .accordion__panel a {
   text-decoration: underline;
-  color: #ba1d24;
+  color: #0191B6;
 }
 
 .serviceList h3 {
@@ -15217,7 +15219,7 @@ img.radisuImage {
 }
 
 .accordion__button[aria-expanded="true"] {
-  background: #ba1d24 !important;
+  background: #0191B6 !important;
 }
 
 .accordion__heading {
@@ -15353,13 +15355,13 @@ ul.list-item.itemsbx li img {
 }
 
 .categories button.selected {
-  background: #ba1d24;
-  border-color: #ba1d24
+  background: #0191B6;
+  border-color: #0191B6
 }
 
 .categories button:hover {
-  background: #ba1d24;
-  border-color: #ba1d24
+  background: #0191B6;
+  border-color: #0191B6
 }
 
 .categories {
@@ -15429,7 +15431,7 @@ ul.list-item.itemsbx li img {
 }
 
 .gallery-item .teamdesc p {
-  color: #ba1d24;
+  color: #0191B6;
   margin-bottom: 3px;
   font-size: 13.5px;
 }
@@ -16017,7 +16019,7 @@ ul.list-item.itemsbx li img {
 }
 
 .locations-sections .card a {
-  color: #ba1d24;
+  color: #0191B6;
 }
 
 .locations-sections .add-image img {
@@ -16615,6 +16617,13 @@ ul.event-details-list li {
   margin: 20px;
 }
 
+.datevent h3 {
+  color: #0191B6;
+  font-size: 20px;
+  margin: 0px 0px 10px;
+  font-weight: 700;
+}
+
 .event-date {
   color: #13c2a3;
   font-size: 2.5rem;
@@ -16644,9 +16653,22 @@ ul.event-details-list li {
   border-radius: 5px;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
+.priceing-even h4 {
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+  padding-top: 6px;
+}
+.priceing-even p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #0191B6;
+  font-style: italic;
+  padding-top: 13px;
+}
 .register-btn:hover {
   background-color: #13c2a3;
   color: white;
@@ -16688,14 +16710,15 @@ ul.event-details-list li {
 
 .event-date {
   color: #000;
-  font-size: 60px;
+  line-height: 41px;
+  font-size: 35px;
   margin-right: 10px;
 }
 
 .month {
-  font-size: 16px !important;
+  font-size: 14px !important;
   letter-spacing: 0.05em;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   color: #000;
 }
@@ -16707,7 +16730,7 @@ ul.event-details-list li {
 .name {
   color: #151515;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .img-fluid {
@@ -16717,7 +16740,7 @@ ul.event-details-list li {
 
 .event-title,
 .event-title a {
-  margin: 6px 24px 25px 0px;
+  margin: 15px 24px 15px 0px;
   color: #151515;
   font-size: 32px;
   font-weight: 600;
@@ -16756,10 +16779,11 @@ ul.event-details-list li {
   color: #151515;
   font-weight: 600 !important;
   font-size: 16px;
+  margin-bottom: 0px;
 }
 
 .upcoming-course-adr p span {
-  color: #2ccfbb;
+  color: #0191B6;
   padding: 0 12px;
 }
 
@@ -16774,7 +16798,7 @@ ul.event-details-list li {
 }
 
 .register-btn:hover {
-  background-color: #2ccfbb !important;
+  background-color: #0191B6 !important;
   color: #fff !important;
   top: 0;
   left: 0;
@@ -16788,7 +16812,7 @@ ul.event-details-list li {
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #2ccfbb;
+  background-color: #0191B6;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   z-index: -1;
@@ -16814,7 +16838,7 @@ ul.event-details-list li {
     background-color: #fff !important;
     padding: 40px;
     margin: 0px 30px !important;
-    border: 1px solid #2ccfbb;
+    border: 1px solid #0191B6;
   }
 
   .event-title,
@@ -16852,7 +16876,7 @@ ul.event-details-list li {
   }
 
   .register-btn {
-    border: 1px solid #2ccfbb;
+    border: 1px solid #0191B6;
   }
 
   .rightbox {
@@ -16865,7 +16889,7 @@ ul.event-details-list li {
     background-color: #fff !important;
     padding: 20px 40px 30px;
     margin: 0px 20px !important;
-    border: 1px solid #2ccfbb !important;
+    border: 1px solid #0191B6 !important;
   }
 
   .upcoming-course-adr p {
@@ -16911,7 +16935,7 @@ ul.event-details-list li {
   }
 
   .register-btn {
-    border: 1px solid #2ccfbb;
+    border: 1px solid #0191B6;
   }
 
   .rightbox {
@@ -16986,7 +17010,7 @@ ul.event-details-list li {
   .event-title,
   .event-title a {
 
-    margin: 6px 14px 25px 0px;
+    margin: 15px 14px 15px 0px;
     font-size: 21px;
   }
 }
@@ -17432,6 +17456,7 @@ ul.event-details-list li {
   font-size: 24px;
   font-weight: 600;
 }
+
 .info {
   display: flex;
   align-items: center;
@@ -17440,29 +17465,37 @@ ul.event-details-list li {
   padding: 20px;
   width: 30%;
 }
+
 .info i {
   color: #000;
 }
+
 .info span {
   color: #000;
 }
+
 .tag-text {
   color: #6c757d;
 }
+
 .tag-value {
   color: #000;
   font-weight: bold;
 }
+
 .share-text {
   color: #6c757d;
 }
+
 .share-icons i {
   color: #fff;
 }
+
 .share-icons .icon-circle {
   background-color: #5bc0de;
   border-radius: 50%;
   padding: 10px;
   margin-left: 10px;
 }
+
 /* here is the css of blog page END*/
