@@ -228,19 +228,10 @@ const home = () => {
             <section className="departments-wrap-layout5 bg-light-accent100" id="services">
                 <div className="container">
                     <div className="row gutters-20">
-                        <h2 className="item-title text-center mb-60">How We Serve</h2>
+                        <h2 className="item-title text-center mb-60">Services</h2>
 
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
-                            <div className="departments-box-layout4 adtmed">
-                                <div className="box-content">
-                                    <div className="radborder"><Image src="/primary-care-icon.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="primary-care" /></div>
-                                    <h3 className="item-title"><Link href="/adult-medicine">Adult Medicine </Link></h3>
-                                    <p>Adult medicine is key to maintaining overall health and managing a wide range of medical conditions throughout adulthood. </p>
-                                    <Link href="/adult-medicine" className="link">Learn More</Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
+                       
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
                             <div className="departments-box-layout4 pedcare">
                                 <div className="box-content">
                                     <div className="radborder"><Image src="/padiatric-icon.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="padiatric" /></div>
@@ -250,7 +241,7 @@ const home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
                             <div className="departments-box-layout4 wmser">
                                 <div className="box-content">
                                     <div className="radborder"><Image src="/women-service-icon.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="women-service" /></div>
@@ -262,7 +253,7 @@ const home = () => {
                         </div>
 
 
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
+                        {/* <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
                             <div className="departments-box-layout4 behealth">
                                 <div className="box-content">
                                     <div className="radborder"><Image src="/behavior-health-icon.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="behavior-health" /></div>
@@ -311,7 +302,7 @@ const home = () => {
                                     <Link href="/pharmacy" className="link">Learn More</Link>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>
