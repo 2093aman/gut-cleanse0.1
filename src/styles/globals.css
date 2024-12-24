@@ -16662,6 +16662,7 @@ ul.event-details-list li {
   font-style: italic;
   padding-top: 6px;
 }
+
 .priceing-even p {
   font-size: 17px;
   font-weight: 500;
@@ -16669,6 +16670,7 @@ ul.event-details-list li {
   font-style: italic;
   padding-top: 13px;
 }
+
 .register-btn:hover {
   background-color: #13c2a3;
   color: white;
@@ -17498,4 +17500,40 @@ ul.event-details-list li {
   margin-left: 10px;
 }
 
-/* here is the css of blog page END*/
+/* ÷/here is the css of blog page END* */
+
+
+.faq-header {
+  text-align: center;
+  margin: 40px ;
+}
+
+.faq-header h1 {
+  font-size: 2rem;
+  color: #1a2e6c;
+  font-weight: bold;
+}
+
+.faq-header h1 span {
+  color:#0191B6;
+}
+
+.accordion-button {
+  background-color: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  color: #000; font-size: 20px;
+  font-weight: 600;
+}
+.accordion-item {
+ 
+  margin-bottom: 20px; 
+}
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #e9ecef;
+}
+
+.accordion-button::after {
+  color: #f4b400;
+}

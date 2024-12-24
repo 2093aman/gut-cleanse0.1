@@ -246,7 +246,7 @@ const Service = () => {
                     </div>
                   </div>
                 </div>
-                <button class="register-btn">Register</button>
+                <button class="register-btn">Read More</button>
               </div>
             </div>
             <div class="right col-md-6 z-3 d-flex align-items-center">
