@@ -123,16 +123,14 @@ const Navbar = () => {
               <div className="col-xl-8 col-lg-12 col-md-12 col-12 header-contact-layout1">
                 <div className="marquee">
                   {" "}
-                  <p>
-                    To contact your healthcare provider after hours, or when the
-                    clinic is closed, please call 1234567890.
+                  <p>If you need immediate assistance, please call +91 9779994422.
                   </p>
                 </div>
               </div>
               <div className="col-xl-4 d-none d-xl-block">
                 <ul className="header-social-layout1">
 
-                <b> Call Us: 1234567890</b>
+                <b> Call: +91 9779994422</b>
                   <li>
                  
                   </li>
@@ -200,7 +198,7 @@ const Navbar = () => {
 									<nav id="dropdown">
 										<ul>
 											<li>
-												<Link target="" href="" className="btn-red ">login/Sign</Link>
+												<Link target="" href="" className="btn-red ">login</Link>
 												
 											</li>
 											
