@@ -41,296 +41,114 @@ const Service = () => {
         </div>
       </div>
 
-      {/* <section className="departments-wrap-layout5 bg-light-accent100 services-area serviceWrapper"  id="services">
-            <div className="container">
-                <div className="row gutters-20">
-					<h2 className="item-title text-center ">How We Serve</h2>
-					 <p className="font-36 mb-60">Lorem Clinic is a full-service Federally Qualified Health Center (FQHC) offering evidence-based and data-driven healthcare to the Greater Houston community. Our comprehensive services include pediatric and adult primary care, women’s health, behavioral health, dental care, vision services, and preventive care, as well as chronic disease management. Additionally, we provide specialty care, including nutrition counseling, maternal health, immunizations, lab services, and social support programs. Lorem Clinic is dedicated to serving all individuals, regardless of their ability to pay, and takes pride in delivering culturally competent care in over 30 languages, ensuring everyone has access to quality healthcare.</p>
-						
-                    <div className="col-lg-4 col-sm-6 serv1">
-						<div className="single-services aos-init aos-animate" data-aos="slide-left">
-							<div className="services-Image">
-								<Link href="/adult-medicine">
-									<Image src="/telehealth-new.jpg" alt="primarycare" width={0}  height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }}/>
-								</Link>
-							</div>
-
-							<div className="services-content">
-								<h3><Link href="/adult-medicine">Adult Medicine  </Link></h3>
-								<p>Adult medicine is key to maintaining overall health and managing a wide range of medical conditions throughout adulthood. Timely and thorough care is crucial for preventing illness, managing chronic conditions, and addressing acute health issues. </p>
-								<Link href="/adult-medicine" className="link">Learn More</Link>
-							</div>
-						</div>
-					</div>
-					 <div className="col-lg-4 col-sm-6 serv1">
-						<div className="single-services aos-init aos-animate" data-aos="slide-right">
-							<div className="services-Image">
-								<Link href="/pediatric-care-services">
-									<Image src="/Wellness Check-Upsyyt.jpg" alt="primarycare" width={0}  height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }}/>
-								</Link>
-							</div>
-
-							<div className="services-content">
-								<h3><Link href="/pediatric-care-services">Pediatric Care </Link></h3>
-								<p>Pediatric care is essential for monitoring and supporting the health and development of children from infancy through adolescence. Timely evaluations and interventions are crucial for addressing growth milestones, managing common illnesses, and providing preventive care.  </p>
-								<Link href="/pediatric-care-services" className="link">Learn More</Link>
-								
-							</div>
-						</div>
-					</div>
-                    <div className="col-lg-4 col-sm-6 serv1">
-						<div className="single-services aos-init aos-animate" data-aos="slide-up">
-							<div className="services-Image">
-								<Link href="/ob-gyn">
-									<Image src="/Centering-ygt.jpg" alt="primarycare" width={0}  height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }}/>
-								</Link>
-							</div>
-
-							<div className="services-content">
-								<h3><Link href="/ob-gyn">Women&apos;s Health (OB/GYN)</Link></h3>
-								<p>Women&apos;s health care is vital for addressing the unique medical needs of women at every stage of life. Timely and comprehensive care is essential for managing reproductive health, prenatal care, and conditions specific to women.</p>
-								<Link href="/ob-gyn" className="link">Learn More</Link>
-								
-							</div>
-						</div>
-					</div>
-					<div className="col-lg-4 col-sm-6 serv1">
-						<div className="single-services aos-init aos-animate" data-aos="slide-up">
-							<div className="services-Image">
-								<Link href="/behavioral-health-services">
-									<Image src="/medication-management.jpg" alt="primarycare" width={0}  height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }}/>
-								</Link>
-							</div>
-
-							<div className="services-content">
-								<h3><Link href="/behavioral-health-services">Behavioral Health </Link></h3>
-								<p>Our specialized services include treatment and management by medications and counselling services - care provided in multiple languages. </p>
-								<Link href="/behavioral-health-services" className="link">Learn More</Link>
-								
-							</div>
-						</div>
-					</div>
-                   <div className="col-lg-4 col-sm-6 serv1">
-						<div className="single-services aos-init aos-animate" data-aos="slide-right">
-							<div className="services-Image">
-								<Link href="/dental-services">
-									<Image src="/dental-fillng.jpg" alt="dental-ser" width={0}  height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }}/>
-								</Link>
-							</div>
-
-							<div className="services-content">
-								<h3><Link href="/dental-services">Dental Care  </Link></h3>
-								<p>Dental care includes routine check-ups, cleanings, and preventive treatments to maintain optimal oral health. Our services also encompass restorative procedures, such as fillings and crowns, as well as cosmetic enhancements to improve the appearance of your smile.</p>
-								<Link href="/dental-services" className="link">Learn More</Link>
-								
-							</div>
-						</div>
-					</div>
-					
-					
-                    <div className="col-lg-4 col-sm-6 serv1">
-						<div className="single-services aos-init aos-animate" data-aos="slide-left">
-							<div className="services-Image">
-								<Link href="/vision-care">
-									<Image src="/visionqw.jpg" alt="primarycare" width={0}  height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }}/>
-								</Link>
-							</div>
-
-							<div className="services-content">
-								<h3><Link href="/vision-care">Vision Care </Link></h3>
-								<p>Our vision care services include thorough eye exams to assess vision and eye health, prescription eyewear fittings, and management of common eye conditions. We offer a range of corrective lenses, including glasses and contact lenses, as well as treatments for conditions such as glaucoma and cataracts </p>
-								<Link href="/vision-care" className="link">Learn More</Link>
-							</div>
-						</div>
-					</div>
-                   
-                   
-					 <div className="col-lg-4 col-sm-6 serv1">
-						<div className="single-services aos-init aos-animate" data-aos="slide-right">
-							<div className="services-Image">
-								<Link href="/urinalysis.jpg">
-									<Image src="/diagnostic-panel.jpg" alt="dental-ser" width={0}  height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }}/>
-								</Link>
-							</div>
-
-							<div className="services-content">
-								<h3><Link href="/laboratory-services">Laboratory Services   </Link></h3>
-								<p>Our clinic’s laboratory services offer accurate and timely diagnostic testing to support your health and wellness. We provide a range of services including routine blood tests, urinalysis, and specialized diagnostic tests.</p>
-								<Link href="/laboratory-services" className="link">Learn More</Link>
-								
-							</div>
-						</div>
-					</div>
-					
-					 <div className="col-lg-4 col-sm-6 serv1">
-						<div className="single-services aos-init aos-animate" data-aos="slide-right">
-							<div className="services-Image">
-								<Link href="/pharmacy">
-									<Image src="/pharmacyhh.jpg" alt="dental-ser" width={0}  height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }}/>
-								</Link>
-							</div>
-
-							<div className="services-content">
-								<h3><Link href="/pharmacy">Pharmacy  </Link></h3>
-								<p>Our pharmacy offers comprehensive services to meet your medication needs. We provide prescription fulfillment, medication refills, and transfers, along with personalized medication counseling and convenient immunizations.</p>
-								<Link href="/pharmacy" className="link">Learn More</Link>
-								
-							</div>
-						</div>
-					</div>
-                
-                   
-                </div>
-            </div>
-        </section> */}
-
-      {/* servicess  */}
-
       <section className="fancybox-layout1  bg-overlay-primary-gradient pt-120 pb-120  otherserv">
-        <div class="container d-flex justify-content-center align-items-center">
+        <div class="container d-flex align-items-center">
           <div class="row">
-            <div class="col-12">
+            <div class="col-12 mb-4">
               <h2 className="item-title text-center ">Our Services</h2>
             </div>
-            <div class="col-md-6 mt-5 d-flex align-items-center ps-5 mob">
-              <div class="event-card ms-5">
-                <div class="row align-items-center">
+            <div class="col-md-4">
+              <div class="pro-card p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="days-left">7</div>
+                  <div class="ms-2">
+                    <span>Days Left</span>
+                  </div>
+                </div>
+                <div class="event-title mb-2">Gut Reset Revolution</div>
+                <div class="event-description mb-3">
+                  Meet authorized professionals in the fields of marketing,
+                  public relations, advertising and sales planning...
+                </div>
+                <div className="row">
                   <div className="col-md-6">
-                    <div className="row datevent">
-                      <h3>Start </h3>
-                      <div class="col-md-3">
-                        <div class="event-date">13</div>
-                      </div>
-                      <div class="col-md-9">
-                        <div class="month">NOVEMBER, 2018</div>
-                        <div class="name">The Plaza Center</div>
-                      </div>
-                    </div>
+                    <h3 className="price-tab">Price </h3>
                   </div>
                   <div className="col-md-6">
-                    <div className="row datevent">
-                      <h3>End </h3>
-                      <div class="col-md-3">
-                        <div class="event-date">13</div>
-                      </div>
-                      <div class="col-md-9">
-                        <div class="month">NOVEMBER, 2018</div>
-                        <div class="name">The Plaza Center</div>
-                      </div>
+                    <p className="price-money">$12345</p>
+                  </div>
+                </div>
+                <hr />
+                <div className="row">
+                  <div className="col-md-6"><h6>Start date </h6>
+                    <div class="d-flex align-items-center mb-2">
+                      <div class="event-date">May 5, 2022</div>
+                    </div></div>
+                  <div className="col-md-6"><h6 className="end-dat">End date</h6>
+                    <div class="d-flex align-items-center mb-2">
+                      <div class="event-date">May 5, 2022</div>
                     </div>
                   </div>
                 </div>
-
-                <div class="event-title">
-                  <a href="#">Information Technology in The Banking Sector</a>
-                </div>
-                <p>
-                  {" "}
-                  lorem Clinic provides a wide variety of services to help meet
-                  your needs and provide a one-stop-shop!{" "}
-                </p>
-                <div class="upcoming-course-adr">
-                  <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                  <p>
-                    768 Fifth Avenue New York, <br />
-                    NY 1019 <span>|</span> The Plaza Center
-                  </p>
-                </div>
-                <div className="priceing-even">
-                  <div className="row">
-                    <div className="col-md-3">
-                      <h4>Price</h4>
-                    </div>
-                    <div className="col-md-4">
-                      <p>$5678r4</p>
-                    </div>
-                  </div>
-                </div>
-                <button class="register-btn">Read More</button>
               </div>
             </div>
-            <div class="right col-md-6 z-3 d-flex align-items-center">
-              <img
-                alt="Person holding a smartphone with a laptop, documents, and a cup on a desk"
-                class="img-fluid event-image me-5"
-                height="400"
-                src="https://storage.googleapis.com/a1aa/image/6lLlf1l59iQcRqAPWnVI1dOOe9CAztKdZerVXHf8tMWuDh0PB.jpg"
-                width="600"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div class="container d-flex justify-content-center align-items-center">
-          <div class="row direction mt-5">
-            <div class="left col-md-6 z-3 d-flex align-items-center">
-              <img
-                alt="Person holding a smartphone with a laptop, documents, and a cup on a desk"
-                class="img-fluid event-image ps-5 ms-5"
-                height="400"
-                src="https://storage.googleapis.com/a1aa/image/6lLlf1l59iQcRqAPWnVI1dOOe9CAztKdZerVXHf8tMWuDh0PB.jpg"
-                width="600"
-              />
-            </div>
-
-            <div class="col-md-6 mt-5 d-flex align-items-center mob pe-5">
-              <div class="event-card rightbox me-5">
-                <div class="row align-items-center">
+            <div class="col-md-4">
+              <div class="pro-card p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="days-left">7</div>
+                  <div class="ms-2">
+                    <span>Days Left</span>
+                  </div>
+                </div>
+                <div class="event-title mb-2">Gut & Glory™</div>
+                <div class="event-description mb-3">
+                  Meet authorized professionals in the fields of marketing,
+                  public relations, advertising and sales planning...
+                </div>
+                <div className="row">
                   <div className="col-md-6">
-                    <div className="row datevent">
-                      <h3>Start </h3>
-                      <div class="col-md-3">
-                        <div class="event-date">13</div>
-                      </div>
-                      <div class="col-md-9">
-                        <div class="month">NOVEMBER, 2018</div>
-                        <div class="name">The Plaza Center</div>
-                      </div>
-                    </div>
+                    <h3 className="price-tab">Price </h3>
                   </div>
                   <div className="col-md-6">
-                    <div className="row datevent">
-                      <h3>End </h3>
-                      <div class="col-md-3">
-                        <div class="event-date">13</div>
-                      </div>
-                      <div class="col-md-9">
-                        <div class="month">NOVEMBER, 2018</div>
-                        <div class="name">The Plaza Center</div>
-                      </div>
+                    <p className="price-money">$12345</p>
+                  </div>
+                </div>
+                <hr />
+                <div className="row">
+                  <div className="col-md-6"><h6>Start date </h6>
+                    <div class="d-flex align-items-center mb-2">
+                      <div class="event-date">May 5, 2022</div>
+                    </div></div>
+                  <div className="col-md-6"><h6 className="end-dat">End date </h6>
+                    <div class="d-flex align-items-center mb-2">
+                      <div class="event-date">May 5, 2022</div>
                     </div>
                   </div>
                 </div>
-
-                <div class="event-title">
-                  <a href="#">
-                    Ultimate Skills For an Explosive Start in IT Recruiting
-                  </a>
+              </div>
+            </div>  <div class="col-md-4">
+              <div class="pro-card p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="days-left">7</div>
+                  <div class="ms-2">
+                    <span>Days Left</span>
+                  </div>
                 </div>
-                <p>
-                  {" "}
-                  lorem Clinic provides a wide variety of services to help meet
-                  your needs and provide a one-stop-shop!{" "}
-                </p>
-                <div class="upcoming-course-adr">
-                  <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                  <p>
-                    768 Fifth Avenue New York, <br />
-                    NY 10019 <span>|</span> The Plaza Center
-                  </p>
+                <div class="event-title mb-2">Gut Intelligence Workshop</div>
+                <div class="event-description mb-3">
+                  Meet authorized professionals in the fields of marketing,
+                  public relations, advertising and sales planning...
                 </div>
-
-                <div className="priceing-even">
-                  <div className="row">
-                    <div className="col-md-3">
-                      <h4>Price</h4>
-                    </div>
-                    <div className="col-md-4">
-                      <p>$56784</p>
+                <div className="row">
+                  <div className="col-md-6">
+                    <h3 className="price-tab">Price </h3>
+                  </div>
+                  <div className="col-md-6">
+                    <p className="price-money">$12345</p>
+                  </div>
+                </div>
+                <hr />
+                <div className="row">
+                  <div className="col-md-6"><h6>Start date </h6>
+                    <div class="d-flex align-items-center mb-2">
+                      <div class="event-date">May 5, 2022</div>
+                    </div></div>
+                  <div className="col-md-6"><h6 className="end-dat">End date </h6>
+                    <div class="d-flex align-items-center mb-2">
+                      <div class="event-date">May 5, 2022</div>
                     </div>
                   </div>
                 </div>
-                <button class="register-btn">Register</button>
               </div>
             </div>
           </div>

@@ -7,105 +7,88 @@ import CountUp, { useCountUp } from "react-countup";
 import Link from "next/link";
 
 const responsive = {
-    superLargeDesktop: {
-        // the naming can be any, depends on youfff.
-        breakpoint: { max: 4000, min: 3000 },
-        items: 4,
-    },
-    desktop: {
-        breakpoint: { max: 3000, min: 1024 },
-        items: 4,
-    },
-    tablet: {
-        breakpoint: { max: 1024, min: 464 },
-        items: 2,
-    },
-    mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 1,
-    },
+  superLargeDesktop: {
+    // the naming can be any, depends on youfff.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 4,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 4,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
 };
 
 const responsive1 = {
-    superLargeDesktop: {
-        // the naming can be any, depends on youfff.
-        breakpoint: { max: 4000, min: 3000 },
-        items: 1,
-    },
-    desktop: {
-        breakpoint: { max: 3000, min: 1024 },
-        items: 1,
-    },
-    tablet: {
-        breakpoint: { max: 1024, min: 464 },
-        items: 2,
-    },
-    mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 1,
-    },
+  superLargeDesktop: {
+    // the naming can be any, depends on youfff.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 1,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 1,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
 };
 
 const home = () => {
-    return (
-        <div>
-            <div className="bar show">
-                <div className="bar__grid">
-                    <a className="bar__link" href="#aboutus">
-                        ABOUT US
-                    </a>
-                    <a className="bar__link" href="#support">
-                        FEEDBACK
-                    </a>
-                    <a className="bar__link" href="#services">
-                        SERVICES
-                    </a>
-                    <a className="bar__link" href="#support">
-                        SUPPORT
-                    </a>
-                </div>
+  return (
+    <div>
+      <div className="banner-section">
+        <ReactPlayer
+          url="home/homevideoiuu.mp4"
+          playing={true}
+          autoplaying={true}
+          loop={true}
+          muted={true}
+          playsinline={true}
+          width={"100%"}
+          height={"100%"}
+          webkit-playsinline={true}
+        />
+
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <h1 data-aos="fade-up">
+                Restore Your Digestive Balance, Reclaim Your Vitality{" "}
+              </h1>
+              <p className="mt-3" data-aos="fade-up">
+                Experience the transformative power of evidence-based gut
+                healing through our clinically-informed programs & workshops,
+                designed by digestive health specialists
+              </p>
+              <a
+                href="/about"
+                className="btn-red mt-4 hombnr"
+                data-bs-toggle="modal"
+              >
+                <span>About Us </span>
+              </a>
+              <a href="#" className="btn-red mt-4 " data-bs-toggle="modal">
+                <span>Enroll now</span>
+              </a>
             </div>
+          </div>
+        </div>
+      </div>
 
-            <div className="banner-section">
-                <ReactPlayer
-                    url="home/homevideoiuu.mp4"
-                    playing={true}
-                    autoplaying={true}
-                    loop={true}
-                    muted={true}
-                    playsinline={true}
-                    width={"100%"}
-                    height={"100%"}
-                    webkit-playsinline={true}
-                />
-
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12 text-center">
-                            <h1 data-aos="fade-up">
-                                Restore Your Digestive Balance, Reclaim Your Vitality{" "}
-                            </h1>
-                            <p className="mt-3" data-aos="fade-up">
-                                Experience the transformative power of evidence-based gut
-                                healing through our clinically-informed programs & workshops,
-                                designed by digestive health specialists
-                            </p>
-                            <a
-                                href="#"
-                                className="btn-red mt-4 hombnr"
-                                data-bs-toggle="modal"
-                            >
-                                <span>Enroll now</span>
-                            </a>
-                            <a href="#" className="btn-red mt-4 " data-bs-toggle="modal">
-                                <span>Enroll now</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {/* <section className="bannerbelow-area">
+      {/* <section className="bannerbelow-area">
                 <div className="container-fluid">
                     <div className="row ">
                         <div className="col-xl-4 col-lg-4 bg-darkred text-white p-20 d-flex align-items-center">
@@ -160,380 +143,406 @@ const home = () => {
                 </div>
             </section> */}
 
-            <section className="about-area pt-100 pb-100" id="aboutus">
-                <div className="container">
-                    <div className="row  ">
-                        <div className="col-xl-6 col-lg-6">
-                            <div className="about-left pos-rel mb-30" data-aos="fade-up">
-                                <div className="about-author d-flex align-items-center">
-                                    <div className="about-author-Image">
-                                        <Image
-                                            src="/homebout.webp"
-                                            alt="aboutus"
-                                            width={0}
-                                            height={0}
-                                            sizes="100vw"
-                                            style={{ width: "auto", height: "auto" }}
-                                        />
-                                        <Image
-                                            src="/homedown.webp"
-                                            alt="aboutus"
-                                            width={0}
-                                            height={0}
-                                            sizes="100vw"
-                                            className="homedown"
-                                            style={{ width: "auto", height: "auto" }}
-                                        />
-                                        <div className="circle-Image"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-6 col-lg-6 pb-10">
-                            <div
-                                className="about-right pt-15 mb-30  "
-                                data-aos="fade-right"
-                            >
-                                <div className="section-title-2  mt-5">
-                                    <h2>About Us </h2>
-
-                                </div>
-                                <div className="about-text  ">
-                                    <p className="mb-5">
-                                        At Gut Cleanse, we understand that vibrant health begins in your digestive system. Since 2015, our team of digestive wellness experts has helped thousands of people transform their lives through our science-backed, personalized gut health programs. We don't just mask symptoms – we dig deep to restore your microbiome balance and optimize your digestive function naturally. Drawing from both modern nutritional science and time-tested healing traditions, our gentle yet effective gut cleanse approach helps you overcome bloating, fatigue, and digestive discomfort while boosting your energy and overall wellbeing. Through our signature E.R.R.O.R. Method, we've guided busy professionals, parents, and health-conscious individuals to rediscover the joy of eating without fear or discomfort. Whether you're struggling with occasional digestive issues or looking to enhance your gut health, we're here to support you with practical solutions that fit your lifestyle.</p>
-                                </div>
-                                <ul className="counter-list pt-25 mb-4">
-                                    <li>
-                                        <h3>
-                                            <CountUp end={1200} enableScrollSpy />+
-                                        </h3>
-
-                                        <p>People healed</p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            <CountUp end={21} enableScrollSpy />+
-                                        </h3>
-                                        <p>Country</p>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            <CountUp end={99.3} enableScrollSpy />
-                                            %+{" "}
-                                        </h3>
-                                        <p>Language Served</p>
-                                    </li>
-                                </ul>
-                                <div className="abutHomebtn">
-                                    <Link href="/about" className="btn-red theme-btn mt-4">
-                                        <span>Enroll now</span>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <section className="about-area pt-100 pb-100" id="aboutus">
+        <div className="container">
+          <div className="row  ">
+            <div className="col-xl-6 col-lg-6">
+              <div className="about-left pos-rel mb-30" data-aos="fade-up">
+                <div className="about-author d-flex align-items-center">
+                  <div className="about-author-Image">
+                    <Image
+                      src="/homebout.webp"
+                      alt="aboutus"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "auto", height: "auto" }}
+                    />
+                    <Image
+                      src="/homedown.webp"
+                      alt="aboutus"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      className="homedown"
+                      style={{ width: "auto", height: "auto" }}
+                    />
+                    <div className="circle-Image"></div>
+                  </div>
                 </div>
-            </section>
-            <section className="departments-wrap-layout5 bg-light-accent100">
-                <div className="container  ">
-                    <div className="row ">
-                        <div className="col-md-6">
-                            <Image
-                                src="/digestive.jpeg"
+              </div>
+            </div>
+            <div className="col-xl-6 col-lg-6 pb-10">
+              <div className="about-right pt-15 mb-30  " data-aos="fade-right">
+                <div className="section-title-2  mt-5">
+                  <h2>About Us </h2>
+                </div>
+                <div className="about-text  ">
+                  <p className="mb-5">
+                    At Gut Cleanse, we understand that vibrant health begins in
+                    your digestive system. Since 2015, our team of digestive
+                    wellness experts has helped thousands of people transform
+                    their lives through our science-backed, personalized gut
+                    health programs. We don't just mask symptoms – we dig deep
+                    to restore your microbiome balance and optimize your
+                    digestive function naturally. Drawing from both modern
+                    nutritional science and time-tested healing traditions, our
+                    gentle yet effective gut cleanse approach helps you overcome
+                    bloating, fatigue, and digestive discomfort while boosting
+                    your energy and overall wellbeing. Through our signature
+                    E.R.R.O.R. Method, we've guided busy professionals, parents,
+                    and health-conscious individuals to rediscover the joy of
+                    eating without fear or discomfort. Whether you're struggling
+                    with occasional digestive issues or looking to enhance your
+                    gut health, we're here to support you with practical
+                    solutions that fit your lifestyle.
+                  </p>
+                </div>
+                <ul className="counter-list pt-25 mb-4">
+                  <li>
+                    <h3>
+                      <CountUp end={1200} enableScrollSpy />+
+                    </h3>
+
+                    <p>People healed</p>
+                  </li>
+                  <li>
+                    <h3>
+                      <CountUp end={21} enableScrollSpy />+
+                    </h3>
+                    <p>Country</p>
+                  </li>
+                  <li>
+                    <h3>
+                      <CountUp end={99.3} enableScrollSpy />
+                      %+{" "}
+                    </h3>
+                    <p>Satisfaction</p>
+                  </li>
+                </ul>
+                <div className="abutHomebtn">
+                  <Link href="/about" className="btn-red theme-btn mt-4">
+                    <span>Learn More</span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="departments-wrap-layout5 bg-light-accent100">
+        <div className="container  ">
+          <div className="row ">
+            <div className="col-md-6">
+              <Image
+                src="/digestive.jpeg"
+                alt="arrow"
+                className="digestive"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "auto", height: "auto" }}
+              />
+            </div>
+            <div className="col-md-6 digestive-text">
+              <div className="section-title-2 mb-20">
+                <h2>Understanding Your Digestive Health Journey</h2>
+              </div>
+              <div className="about-text pr-5">
+                <p className="mb-3">
+                  Living with chronic digestive issues isn't just about physical
+                  discomfort – it impacts every aspect of your life. From the
+                  anxiety of planning meals to the frustration of unpredictable
+                  symptoms, gut health challenges can feel overwhelming. Our
+                  integrated approach addresses not just the symptoms, but the
+                  root causes of your digestive distress.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="features-wrap-layout1" id="healthcare ">
+        <div className="features-box-layout1 d-lg-flex  ">
+          <div className="item-inner-wrapper leftbxImage">
+            <div className="item-content d-flex align-items-center">
+              <div className="container-fluid">
+                <div className="row">
+                  <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div
+                      className="item-content-inner content-light"
+                      data-aos="fade-up"
+                    >
+                      <h2 className="item-title">
+                        The Hidden Impact of Gut Dysbiosis
+                      </h2>
+                      <p>
+                        Recent clinical research has revealed that gut health
+                        influences far more than digestion. Your digestive
+                        system houses over 70% of your immune system and
+                        produces 90% of your body's serotonin – the "happiness
+                        hormone." When gut bacteria fall out of balance
+                        (dysbiosis), it can trigger a cascade of health issues:
+                      </p>
+                      <ul className="list-item">
+                        <li>
+                          <h4>
+                            <span className="">
+                              <Image
+                                src="/dna.png"
                                 alt="arrow"
-                                className="digestive"
+                                className="fa-spin"
                                 width={0}
                                 height={0}
                                 sizes="100vw"
                                 style={{ width: "auto", height: "auto" }}
-                            />
-                        </div>
-                        <div className="col-md-6 digestive-text">
-                            <div className="section-title-2 mb-20">
-                                <h2>Understanding Your Digestive Health Journey</h2>
-
-                            </div>
-                            <div className="about-text pr-5">
-                                <p className="mb-3">
-                                    Living with chronic digestive issues isn't just about physical discomfort – it impacts every aspect of your life. From the anxiety of planning meals to the frustration of unpredictable symptoms, gut health challenges can feel overwhelming. Our integrated approach addresses not just the symptoms, but the root causes of your digestive distress.
-                                </p>
-                            </div>
-                        </div>
+                              />
+                            </span>{" "}
+                            Chronic inflammation and bloating
+                          </h4>
+                        </li>
+                        <li>
+                          <h4>
+                            <span className="">
+                              <Image
+                                src="/dna.png"
+                                alt="arrow"
+                                className="fa-spin"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                style={{ width: "auto", height: "auto" }}
+                              />
+                            </span>{" "}
+                            Compromised nutrient absorption
+                          </h4>
+                        </li>{" "}
+                        <li>
+                          <h4>
+                            <span className="">
+                              <Image
+                                src="/dna.png"
+                                alt="arrow"
+                                className="fa-spin"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                style={{ width: "auto", height: "auto" }}
+                              />
+                            </span>{" "}
+                            Irregular bowel movements
+                          </h4>
+                        </li>{" "}
+                        <li>
+                          <h4>
+                            <span className="">
+                              <Image
+                                src="/dna.png"
+                                alt="arrow"
+                                className="fa-spin"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                style={{ width: "auto", height: "auto" }}
+                              />
+                            </span>{" "}
+                            Mood fluctuations and anxiety
+                          </h4>
+                        </li>{" "}
+                        <li>
+                          <h4>
+                            <span className="">
+                              <Image
+                                src="/dna.png"
+                                alt="arrow"
+                                className="fa-spin"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                style={{ width: "auto", height: "auto" }}
+                              />
+                            </span>{" "}
+                            Hormonal imbalances
+                          </h4>
+                        </li>
+                        <li>
+                          <h4>
+                            <span className="">
+                              <Image
+                                src="/dna.png"
+                                alt="arrow"
+                                className="fa-spin"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                style={{ width: "auto", height: "auto" }}
+                              />
+                            </span>{" "}
+                            Unexplained weight changes
+                          </h4>
+                        </li>
+                        <li>
+                          <h4>
+                            <span className="">
+                              <Image
+                                src="/dna.png"
+                                alt="arrow"
+                                className="fa-spin"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                style={{ width: "auto", height: "auto" }}
+                              />
+                            </span>{" "}
+                            Skin problems and inflammation{" "}
+                          </h4>
+                        </li>
+                        <li>
+                          <h4>
+                            <span className="">
+                              <Image
+                                src="/dna.png"
+                                alt="arrow"
+                                className="fa-spin"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                style={{ width: "auto", height: "auto" }}
+                              />
+                            </span>{" "}
+                            Autoimmune responses{" "}
+                          </h4>
+                        </li>
+                      </ul>
+                      <Link
+                        href="/about#history"
+                        className="btn-red theme-btn mt-4"
+                      >
+                        Enroll now
+                      </Link>
                     </div>
+                  </div>
                 </div>
-            </section>
+              </div>
+            </div>
+          </div>
+          <div className="item-inner-wrapper imageset-hom" data-aos="fade-up">
+            <Image
+              src="/Health-home.webp"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: "auto", height: "auto" }}
+              alt="aboutus1"
+            />
+          </div>
+        </div>
+      </section>
 
-            <section className="features-wrap-layout1" id="healthcare ">
-                <div className="features-box-layout1 d-lg-flex  ">
-                    <div className="item-inner-wrapper leftbxImage">
-                        <div className="item-content d-flex align-items-center">
-                            <div className="container-fluid">
-                                <div className="row">
-                                    <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-                                        <div
-                                            className="item-content-inner content-light"
-                                            data-aos="fade-up"
-                                        >
-                                            <h2 className="item-title">
-                                                The Hidden Impact of Gut Dysbiosis
-                                            </h2>
-                                            <p>
-                                                Recent clinical research has revealed that gut health
-                                                influences far more than digestion. Your digestive
-                                                system houses over 70% of your immune system and
-                                                produces 90% of your body's serotonin – the "happiness
-                                                hormone." When gut bacteria fall out of balance
-                                                (dysbiosis), it can trigger a cascade of health issues:
-                                            </p>
-                                            <ul className="list-item">
-                                                <li>
-                                                    <h4>
-                                                        <span className="">
-                                                            <Image
-                                                                src="/dna.png"
-                                                                alt="arrow"
-                                                                className="fa-spin"
-                                                                width={0}
-                                                                height={0}
-                                                                sizes="100vw"
-                                                                style={{ width: "auto", height: "auto" }}
-                                                            />
-                                                        </span>{" "}
-                                                        Chronic inflammation and bloating
-                                                    </h4>
-                                                </li>
-                                                <li>
-                                                    <h4>
-                                                        <span className="">
-                                                            <Image
-                                                                src="/dna.png"
-                                                                alt="arrow"
-                                                                className="fa-spin"
-                                                                width={0}
-                                                                height={0}
-                                                                sizes="100vw"
-                                                                style={{ width: "auto", height: "auto" }}
-                                                            />
-                                                        </span>{" "}
-                                                        Compromised nutrient absorption
-                                                    </h4>
-                                                </li>{" "}
-                                                <li>
-                                                    <h4>
-                                                        <span className="">
-                                                            <Image
-                                                                src="/dna.png"
-                                                                alt="arrow"
-                                                                className="fa-spin"
-                                                                width={0}
-                                                                height={0}
-                                                                sizes="100vw"
-                                                                style={{ width: "auto", height: "auto" }}
-                                                            />
-                                                        </span>{" "}
-                                                        Irregular bowel movements
-                                                    </h4>
-                                                </li>{" "}
-                                                <li>
-                                                    <h4>
-                                                        <span className="">
-                                                            <Image
-                                                                src="/dna.png"
-                                                                alt="arrow"
-                                                                className="fa-spin"
-                                                                width={0}
-                                                                height={0}
-                                                                sizes="100vw"
-                                                                style={{ width: "auto", height: "auto" }}
-                                                            />
-                                                        </span>{" "}
-                                                        Mood fluctuations and anxiety
-                                                    </h4>
-                                                </li>{" "}
-                                                <li>
-                                                    <h4>
-                                                        <span className="">
-                                                            <Image
-                                                                src="/dna.png"
-                                                                alt="arrow"
-                                                                className="fa-spin"
-                                                                width={0}
-                                                                height={0}
-                                                                sizes="100vw"
-                                                                style={{ width: "auto", height: "auto" }}
-                                                            />
-                                                        </span>{" "}
-                                                        Hormonal imbalances
-                                                    </h4>
-                                                </li>
-                                                <li>
-                                                    <h4>
-                                                        <span className="">
-                                                            <Image
-                                                                src="/dna.png"
-                                                                alt="arrow"
-                                                                className="fa-spin"
-                                                                width={0}
-                                                                height={0}
-                                                                sizes="100vw"
-                                                                style={{ width: "auto", height: "auto" }}
-                                                            />
-                                                        </span>{" "}
-                                                        Unexplained weight changes
-                                                    </h4>
-                                                </li>
-                                                <li>
-                                                    <h4>
-                                                        <span className="">
-                                                            <Image
-                                                                src="/dna.png"
-                                                                alt="arrow"
-                                                                className="fa-spin"
-                                                                width={0}
-                                                                height={0}
-                                                                sizes="100vw"
-                                                                style={{ width: "auto", height: "auto" }}
-                                                            />
-                                                        </span>{" "}
-                                                        Skin problems and inflammation{" "}
-                                                    </h4>
-                                                </li>
-                                                <li>
-                                                    <h4>
-                                                        <span className="">
-                                                            <Image
-                                                                src="/dna.png"
-                                                                alt="arrow"
-                                                                className="fa-spin"
-                                                                width={0}
-                                                                height={0}
-                                                                sizes="100vw"
-                                                                style={{ width: "auto", height: "auto" }}
-                                                            />
-                                                        </span>{" "}
-                                                        Autoimmune responses{" "}
-                                                    </h4>
-                                                </li>
-                                            </ul>
-                                            <Link
-                                                href="/about#history"
-                                                className="btn-red theme-btn mt-4"
-                                            >
-                                                Enroll now
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="item-inner-wrapper imageset-hom" data-aos="fade-up">
-                        <Image
-                            src="/Health-home.webp"
-                            width={0}
-                            height={0}
-                            sizes="100vw"
-                            style={{ width: "auto", height: "auto" }}
-                            alt="aboutus1"
-                        />
-                    </div>
-                </div>
-            </section>
+      <section
+        className="departments-wrap-layout5 bg-light-accent100"
+        id="services"
+      >
+        <div className="container">
+          <div className="row gutters-20">
+            <h2 className="item-title text-center mb-60">Our Promgram</h2>
 
-
-            <section
-                className="departments-wrap-layout5 bg-light-accent100"
-                id="services"
+            <div
+              className="col-lg-4 col-md-6 col-sm-6 col-12"
+              data-aos="zoom-in"
             >
-                <div className="container">
-                    <div className="row gutters-20">
-                        <h2 className="item-title text-center mb-60">Services</h2>
-
-                        <div
-                            className="col-lg-4 col-md-6 col-sm-6 col-12"
-                            data-aos="zoom-in"
-                        >
-                            <div className="departments-box-layout4 pedcare">
-                                <div className="box-content">
-                                    <div className="radborder">
-                                        <Image
-                                            src="/padiatric-icon.png"
-                                            width={0}
-                                            height={0}
-                                            sizes="100vw"
-                                            style={{ width: "56px", height: "auto" }}
-                                            alt="padiatric"
-                                        />
-                                    </div>
-                                    <h3 className="item-title">
-                                        <Link href="/our-program">Gut Reset Revolution</Link>
-                                    </h3>
-                                    <p>
-                                        Transform your relationship with health through our signature wellness program, crafted from over a decade of clinical success stories. We don't just address symptoms – we help you unlock lasting vitality by harmonizing your gut health, hormone balance, and mindful eating practices.
-                                    </p>
-                                    <Link href="/our-program" className="link">
-                                        Learn More
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            className="col-lg-4 col-md-6 col-sm-6 col-12"
-                            data-aos="zoom-in"
-                        >
-                            <div className="departments-box-layout4 wmser">
-                                <div className="box-content">
-                                    <div className="radborder">
-                                        <Image
-                                            src="/behavior-health-icon.png"
-                                            width={0}
-                                            height={0}
-                                            sizes="100vw"
-                                            style={{ width: "56px", height: "auto" }}
-                                            alt="women-service"
-                                        />
-                                    </div>
-                                    <h3 className="item-title">
-                                        <Link href="/our-program">Gut & Glory™</Link>
-                                    </h3>
-                                    <p>
-                                        Stop letting digestive issues control your life. Our Gut & Glory™ program helps you break free from constant bloating, weird food reactions, and that frustrating afternoon energy crash. In just 14 days, you'll discover how amazing you can feel when your gut works with you, not against you.
-                                    </p>
-                                    <Link href="/our-program" className="link">
-                                        Learn More
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            className="col-lg-4 col-md-6 col-sm-6 col-12"
-                            data-aos="zoom-in"
-                        >
-                            <div className="departments-box-layout4 wmser">
-                                <div className="box-content">
-                                    <div className="radborder">
-                                        <Image
-                                            src="/primary-care.webp"
-                                            width={0}
-                                            height={0}
-                                            sizes="100vw"
-                                            style={{ width: "56px", height: "auto" }}
-                                            alt="women-service"
-                                        />
-                                    </div>
-                                    <h3 className="item-title">
-                                        <Link href="/our-program">Gut Intelligence Workshop</Link>
-                                    </h3>
-                                    <p>
-                                        Discover how a thriving gut ecosystem shapes your physical and mental wellbeing through this transformative online workshop.
-                                    </p>
-                                    <Link href="/our-program" className="link">
-                                        Learn More
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
+              <div className="departments-box-layout4 pedcare">
+                <div className="box-content">
+                  <div className="radborder">
+                    <Image
+                      src="/padiatric-icon.png"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "56px", height: "auto" }}
+                      alt="padiatric"
+                    />
+                  </div>
+                  <h3 className="item-title">
+                    <Link href="/our-program">Gut Reset Revolution</Link>
+                  </h3>
+                  <p>
+                    Transform your relationship with health through our
+                    signature wellness program, crafted from over a decade of
+                    clinical success stories. We don't just address symptoms –
+                    we help you unlock lasting vitality by harmonizing your gut
+                    health, hormone balance, and mindful eating practices.
+                  </p>
+                  <Link href="/our-program" className="link">
+                    Learn More
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-4 col-md-6 col-sm-6 col-12"
+              data-aos="zoom-in"
+            >
+              <div className="departments-box-layout4 wmser">
+                <div className="box-content">
+                  <div className="radborder">
+                    <Image
+                      src="/behavior-health-icon.png"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "56px", height: "auto" }}
+                      alt="women-service"
+                    />
+                  </div>
+                  <h3 className="item-title">
+                    <Link href="/our-program">Gut & Glory™</Link>
+                  </h3>
+                  <p>
+                    Stop letting digestive issues control your life. Our Gut &
+                    Glory™ program helps you break free from constant bloating,
+                    weird food reactions, and that frustrating afternoon energy
+                    crash. In just 14 days, you'll discover how amazing you can
+                    feel when your gut works with you, not against you.
+                  </p>
+                  <Link href="/our-program" className="link">
+                    Learn More
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-4 col-md-6 col-sm-6 col-12"
+              data-aos="zoom-in"
+            >
+              <div className="departments-box-layout4 wmser">
+                <div className="box-content">
+                  <div className="radborder">
+                    <Image
+                      src="/primary-care.webp"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "56px", height: "auto" }}
+                      alt="women-service"
+                    />
+                  </div>
+                  <h3 className="item-title">
+                    <Link href="/our-program">Gut Intelligence Workshop</Link>
+                  </h3>
+                  <p>
+                    Discover how a thriving gut ecosystem shapes your physical
+                    and mental wellbeing through this transformative online
+                    workshop.
+                  </p>
+                  <Link href="/our-program" className="link set-btm">
+                    Learn More
+                  </Link>
+                </div>
+              </div>
+            </div>
+            {/* <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
                             <div className="departments-box-layout4 behealth">
                                 <div className="box-content">
                                     <div className="radborder"><Image src="/behavior-health-icon.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="behavior-health" /></div>
@@ -583,112 +592,79 @@ const home = () => {
                                 </div>
                             </div>
                         </div> */}
-                    </div>
-                </div>
-            </section>
+          </div>
+        </div>
+      </section>
 
+      {/* here is the Health Journey */}
 
-            {/* here is the Health Journey */}
+      {/* here is the Health Journey */}
+      <section className="banner-wrap-layout1 parallaxie" id="support">
+        <div className="container">
+          <div className="row">
+            {/* <div className="col-xl-7 col-lg-4 col-md-10 col-12"></div> */}
+            <div className="col-xl-12 col-lg-8 col-md-10 col-12">
+              <div className="banner-box-layout1" data-aos="fade-up">
+                <h2 className="item-title">What Our Client Are Saying</h2>
+                <Carousel
+                  autoPlay={true}
+                  draggable={true}
+                  infinite={true}
+                  autoPlaySpeed={6000}
+                  responsive={responsive1}
+                >
+                  <div>
+                    <p>
+                      I recently went through a surgery and my gut was
+                      completely out of wack. Nancy was instrumental in helping
+                      heal my gut issues. The diet plan and recipes shared by
+                      her are super easy to follow. In addition to that I lost 3
+                      kgs. I feel way better, less bloated and over all
+                      energetic. Thank you Nancy for being such an awesome and
+                      empathetic health coach !
+                    </p>
+                    <p>
+                      <b>Sowmya</b>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      I had a major bloating issue since a few years… nothing
+                      seemed to be working till the time I joined Nancy for the
+                      gut cleansing diet and that is when the magic happened… it
+                      was a very doable diet which helped me find out that milk
+                      was not suiting me at all which led to severe bloating…
+                      with Nancy’s diet I got rid of this problem… since then I
+                      never had bloating again and now I can easily enjoy my
+                      cold coffee everyday… thank you Nancy… you’ve been a
+                      saviour 🙏❤️🙏
+                    </p>
+                    <p>
+                      <b>Kannu</b>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      Nancy's gut cleanse is the best thing that i did. I was
+                      extremely bloated with breathing issues. Had gone to
+                      multiple doctors who prescribed many medicines which
+                      didn't seem right. After 3 months of trying I tried
+                      Nancy's gut cleanse and to my surprise the problem I was
+                      facing reduced 90%. I highly recommend her 2 week gut
+                      cleanse practice to every one
+                    </p>
+                    <p>
+                      <b>Ankur </b>
+                    </p>
+                  </div>
+                </Carousel>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-
-
-            {/* here is the Health Journey */}
-            <section className="banner-wrap-layout1 parallaxie" id="support">
-                <div className="container">
-                    <div className="row">
-                        {/* <div className="col-xl-7 col-lg-4 col-md-10 col-12"></div> */}
-                        <div className="col-xl-12 col-lg-8 col-md-10 col-12">
-                            <div className="banner-box-layout1" data-aos="fade-up">
-                                <h2 className="item-title">What Our Patients Are Saying</h2>
-                                <Carousel
-                                    autoPlay={true}
-                                    draggable={true}
-                                    infinite={true}
-                                    autoPlaySpeed={6000}
-                                    responsive={responsive1}
-                                >
-                                    <div>
-                                        <p>
-                                            &quot;Dr. Huda Tsihira-Senga did a great job with my
-                                            baby’s first health exam. She explained everything to me
-                                            in a very clear manner. Especially loved how Dr. Huda
-                                            really took her time to explain my baby’s conditionto me.
-                                            I had a great visit. The staff and Dr. Huda were all very
-                                            friendly and helpful, I highly recommend Dr Huda.&quot;
-                                        </p>
-                                        <p>
-                                            <b>Mrs. Yolanda Vasquez</b>
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <p>
-                                            &quot;The nurse is always so nice. My son has special
-                                            needs… She always treats him with so much respect. DR.
-                                            KHOA PHAM is awesome. He treats my son with great respect,
-                                            and he has a lot of patience. My son is very comfortable.
-                                            Thank you, Dr. Pham and his nurse.&quot;{" "}
-                                        </p>
-                                        <p>
-                                            <b>Andrea Laskoskie</b>
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <p>
-                                            &quot;Desde mi primera visita quedé muy a gusto con la
-                                            clínica pues todo el personal es muy atento y súper
-                                            amable, dispuestos a ayudar e informar a cada paciente,
-                                            son un 100 excelente servicio.&quot;
-                                        </p>
-                                        <p>
-                                            <b>M G</b>
-                                        </p>
-                                    </div>
-
-                                    <div>
-                                        <p>
-                                            &quot;Stephanie Gonzalez at the front desk was amazing and
-                                            made sure I took the best care for me and my daughter. Dr.
-                                            Krenek took her time to see my child and answer all my
-                                            questions. Everyone was super nice and
-                                            understanding.&quot;
-                                        </p>
-                                        <p>
-                                            <b>Carolyn Tryon</b>
-                                        </p>
-                                    </div>
-
-                                    <div>
-                                        <p>
-                                            &quot;From the front desk to the vitals check to the Lab
-                                            Tech, and last but not least, the Awesome Provider,
-                                            thisLorem Ipsum staff of friendly professionals is totally
-                                            fantastic, couldn’t get better in my opinion, Thank you
-                                            all ladies!&quot;
-                                        </p>
-                                        <p>
-                                            <b>Ashley Tran </b>
-                                        </p>
-                                    </div>
-
-                                    <div>
-                                        <p>
-                                            &quot;It is the second visit I have made, and I am very
-                                            happy with the service, and the doctor, I plan to change
-                                            with my family and continue withLorem Ipsum for my visits
-                                            each year, and my primary doctors, thank you!&quot;
-                                        </p>
-                                        <p>
-                                            <b>Angela Lopez</b>
-                                        </p>
-                                    </div>
-                                </Carousel>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* <section className="bannerbelow-area carouselSlider">
+      {/* <section className="bannerbelow-area carouselSlider">
 
                 <div className="container-fluid">
                     <div className="row">
@@ -720,35 +696,38 @@ const home = () => {
                 </div>
             </section>           */}
 
-            <section className="call-to-action-wrap-layout4">
-                <div className="item-Image"></div>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xl-12 col-lg-12 col-md-12 col-12">
-                            <div className="call-to-action-box-layout4" data-aos="zoom-in">
-                                <h2 className="item-title">
-                                    Explore Our Natural Gut Cleanse Programs and Improve Your Digestive Health! Begin your journey to optimal digestive wellness
-                                </h2>
+      <section className="call-to-action-wrap-layout4">
+        <div className="item-Image"></div>
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-12 col-lg-12 col-md-12 col-12">
+              <div className="call-to-action-box-layout4" data-aos="zoom-in">
+                <h2 className="item-title">
+                  Explore Our Natural Gut Cleanse Programs and Improve Your
+                  Digestive Health! Begin your journey to optimal digestive
+                  wellness
+                </h2>
 
-                                <div className="call-to-action-btn">
-                                    <Link href="/our-program" className="btn-red theme-btn">
-                                        <span>OUR PROGRAMS</span>
-                                    </Link>
-                                    <span class="or">&nbsp; &nbsp;or&nbsp;&nbsp;</span>{" "}
-                                    <a
-                                        href="https://wa.me/9779994422" target="_blank"
-                                        className="item-btn-phone btn-blue theme-btn"
-                                    >
-                                        <span>Call Us: +91 97799 94422 </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div className="call-to-action-btn">
+                  <Link href="/our-program" className="btn-red theme-btn">
+                    <span>OUR PROGRAMS</span>
+                  </Link>
+                  <span class="or">&nbsp; &nbsp;or&nbsp;&nbsp;</span>{" "}
+                  <a
+                    href="https://wa.me/9779994422"
+                    target="_blank"
+                    className="item-btn-phone btn-blue theme-btn"
+                  >
+                    <span>Call Us: +91 97799 94422 </span>
+                  </a>
                 </div>
-            </section>
+              </div>
+            </div>
+          </div>
         </div>
-    );
+      </section>
+    </div>
+  );
 };
 
 export default home;
