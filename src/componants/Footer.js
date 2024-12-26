@@ -259,32 +259,7 @@ const Footer = () => {
                   </div>
                   <div className="footer-quick-link">
                     <ul class="sociallink d-flex">
-                      <li>
-                        <Link target="_blank" href="">
-                          <Image
-                            src="/twitter-icon.svg"
-                            alt="icon"
-                            width={0}
-                            height={0}
-                            sizes="100vw"
-                            style={{ width: "auto", height: "auto" }}
-                            className="img-fluid"
-                          />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link target="_blank" href="">
-                          <Image
-                            src="/facebook-icon.svg"
-                            alt="icon"
-                            width={0}
-                            height={0}
-                            sizes="100vw"
-                            style={{ width: "auto", height: "auto" }}
-                            className="img-fluid"
-                          />
-                        </Link>
-                      </li>
+                       
                       <li>
                         <Link target="_blank" href="">
                           <Image
@@ -326,8 +301,7 @@ const Footer = () => {
               <div className="col-md-6">
                 <div className="copyright">
                   {" "}
-                  Copyright ©2024 Gut Cleanse. Powered by{" "}
-                  <a href="#">Techharbor Partners</a>
+                  Copyright ©2024 Gut Cleanse inc.
                 </div>
               </div>
             </div>

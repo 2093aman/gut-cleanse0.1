@@ -4670,7 +4670,7 @@ a.temp-logo img {
 
 .call-to-action-box-layout4 .call-to-action-btn .item-btn-phone {
 
-  padding: 15px 40px;
+  padding: 9px 30px;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -4690,6 +4690,7 @@ a.temp-logo img {
 }
 
 .radborder {
+  margin: auto;
   background: #015c93;
   width: 90px;
   height: 90px;
@@ -8124,7 +8125,7 @@ div~ :last-child .call-to-action-box-layout5 {
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   position: relative;
-  min-height: 397px;
+  min-height: 410px;
 }
 
 
@@ -8135,7 +8136,7 @@ div~ :last-child .call-to-action-box-layout5 {
 }
 
 .departments-box-layout4 .box-content {
-  text-align: left;
+  text-align: center;
   position: relative;
 }
 
@@ -11095,7 +11096,7 @@ section.call-to-action-wrap-layout4.bg-grey {
 
 .features-box-layout1:nth-child(odd) .item-content-inner {
   padding-right: 5rem;
-  padding-left: 17rem;
+  padding-left: 2rem;
 
 }
 
@@ -13061,13 +13062,14 @@ ul.counter-list {
 
 ul.counter-list li {
   background: #ffffff87;
-  padding: 23px 29px;
+  padding: 15px 29px;
   min-width: 31%;
   text-align: center;
 }
 
 ul.counter-list li h3 {
-  font-size: 38px;
+  font-size: 28px;
+  font-weight: 600;
   margin-bottom: 2px;
 }
 
@@ -13301,7 +13303,7 @@ section.bannerbelow-area {
   overflow: hidden;
   font-size: 14px;
   line-height: 24px;
-  padding: 15px 45px;
+  padding: 9px 30px;
   font-weight: 700;
   letter-spacing: .1em;
   overflow: hidden;
@@ -15611,8 +15613,8 @@ ul.list-item.itemsbx li img {
 @media (max-width:1600px) {
 
   .features-box-layout1:nth-child(odd) .item-content-inner {
-    padding-right: 5rem;
-    padding-left: 12rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
   }
 
 }
@@ -16610,424 +16612,90 @@ ul.event-details-list li {
   color: #fff
 }
 
-/* footer  */
+/* services css  */
 
 
-/* services  */
-
-
-.event-card {
-  background-color: white;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+.pro-card {
+  border: none;
   margin: 20px;
+  padding: 25px !important;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.datevent h3 {
-  color: #0191B6;
-  font-size: 20px;
-  margin: 0px 0px 10px;
-  font-weight: 700;
-}
-
-.event-date {
-  color: #13c2a3;
-  font-size: 2.5rem;
+.days-left {
+  font-size: 48px;
   font-weight: bold;
+  color: #f06d6d;
 }
 
-.event-location {
-  color: #13c2a3;
-  font-size: 1rem;
+.days-left+span {
+  font-size: 14px;
+  color: #b0b0b0;
 }
 
 .event-title {
-  font-size: 1.5rem;
+  font-size: 22px;
   font-weight: bold;
-  margin-top: 10px;
-}
-
-.event-address {
-  font-size: 1rem;
-  margin-top: 10px;
-}
-
-.register-btn {
-  border: 1px solid #13c2a3;
-  color: #13c2a3;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-top: 0px;
-}
-
-.priceing-even h4 {
-  font-size: 25px;
-  font-weight: 600;
-  font-style: italic;
-  padding-top: 6px;
-}
-
-.priceing-even p {
-  font-size: 17px;
-  font-weight: 500;
   color: #0191B6;
+}
+
+.price-tab {
+  margin: 8px 0px;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.price-money {
+  margin: 8px 0px;
   font-style: italic;
-  padding-top: 13px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
-.register-btn:hover {
-  background-color: #13c2a3;
-  color: white;
+.end-dat {
+  color: #f06d6d !important;
 }
 
-.event-image {
-  border-radius: 8px;
-  margin-top: 20px;
-}
-
-.event-card {
-  background-color: white;
-  border: none !important;
-  box-shadow: none;
-  border-radius: 8px;
-  position: relative;
-  padding: 50px 133px;
-  margin: 0px;
-  position: relative;
-}
-
-.event-card::before {
-  content: "";
-  position: absolute;
-  left: 20px;
-  width: 100%;
-  top: -20px;
-  height: 100%;
-  z-index: 3;
-  border: 3px solid #0191b6;
-  -webkit-box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.08);
-  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.08);
-  pointer-events: none;
-  -webkit-transition: 0.4s ease;
-  transition: 0.4s ease;
-  border-radius: 5px;
-  z-index: 99999;
-}
-
-.event-date {
-  color: #000;
-  line-height: 41px;
-  font-size: 35px;
-  margin-right: 10px;
-}
-
-.month {
+.pro-card h6 {
   font-size: 14px !important;
-  letter-spacing: 0.05em;
   font-weight: 600;
-  text-transform: uppercase;
-  color: #000;
+  color: #0191b6;
+  margin: 10px 0px 5px;
 }
 
-.right {
-  margin-left: -80px;
+.event-date,
+.event-location {
+  font-size: 15px;
+  color: #b0b0b0;
 }
 
-.name {
-  color: #151515;
-  font-weight: 500;
-  font-size: 13px;
-}
-
-.img-fluid {
-  width: 100% !important;
-  height: auto;
-}
-
-.event-title,
-.event-title a {
-  margin: 15px 24px 15px 0px;
-  color: #151515;
-  font-size: 32px;
-  font-weight: 600;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-  text-decoration: none;
-}
-
-.event-title a:hover {
-  color: #13c2a3;
-}
-
-.upcoming-course-adr {
-  position: relative;
-  padding-left: 30px;
-  margin-bottom: 12px;
-}
-
-.fa-map-marker-alt:before {
-  content: "\f3c5";
-  color: #000;
-}
-
-.upcoming-course-adr i {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  font-size: 20px;
-  color: #c4c4c4;
-  font-weight: 900;
-}
-
-.upcoming-course-adr p {
-  color: #151515;
-  font-weight: 600 !important;
-  font-size: 16px;
-  margin-bottom: 0px;
-}
-
-.upcoming-course-adr p span {
-  color: #0191B6;
-  padding: 0 12px;
-}
-
-.register-btn {
-  border: 2px solid #0191b6;
-  color: #151515 !important;
-  font-weight: 600;
+.event-description {
   font-size: 14px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  background: transparent !important;
+  color: #666;
 }
 
-.register-btn:hover {
-  background-color: #0191B6 !important;
-  color: #fff !important;
-  top: 0;
-  left: 0;
-  transition: all 0.3s ease-in-out;
+.event-location {
+  display: flex;
+  align-items: center;
 }
 
-.register-btn:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background-color: #0191B6;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-  z-index: -1;
+.event-location i {
+  margin-right: 5px;
 }
 
-.rightbox {
-  position: relative;
-  padding-bottom: 60px;
+.arrow-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  color: #666;
+  font-size: 18px;
 }
 
-.rightbox:before {
-  bottom: 20px;
-  left: -20px !important;
-}
-
-.left {
-  margin-right: -40px;
-  border-radius: 8px;
-}
-
-@media (max-width: 767px) {
-  .event-card {
-    background-color: #fff !important;
-    padding: 40px;
-    margin: 0px 30px !important;
-    border: 1px solid #0191B6;
-  }
-
-  .event-title,
-  .event-title a {
-    margin: 6px 4px 25px 0px;
-    font-size: 21px;
-  }
-
-  .event-card::before {
-    display: none;
-  }
-
-  .mob {
-    padding: 0px !important;
-  }
-
-  .img-fluid {
-    margin: 30px 0px 0px !important;
-  }
-
-  .right,
-  .left {
-    margin: 0px !important;
-    padding: 0px 30px;
-  }
-
-  .left .img-fluid {
-    margin: 30px 0px !important;
-    padding: 0px !important;
-  }
-
-  .direction {
-    flex-direction: column-reverse !important;
-    margin: 0px 0px !important;
-  }
-
-  .register-btn {
-    border: 1px solid #0191B6;
-  }
-
-  .rightbox {
-    margin: 0px 20px !important;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .event-card {
-    background-color: #fff !important;
-    padding: 20px 40px 30px;
-    margin: 0px 20px !important;
-    border: 1px solid #0191B6 !important;
-  }
-
-  .upcoming-course-adr p {
-    font-size: 14px;
-  }
-
-  .event-date {
-    font-size: 51px;
-  }
-
-  .event-title,
-  .event-title a {
-    margin: 6px 4px 20px 0px;
-    font-size: 18px;
-  }
-
-  .right,
-  .left {
-    margin: 0px !important;
-    padding: 0px 0px;
-  }
-
-  .event-card::before {
-    display: none;
-  }
-
-  .mob {
-    margin: 0px !important;
-    padding: 0px !important;
-  }
-
-  .img-fluid {
-    margin: 0px 0px 0px !important;
-  }
-
-  .left .img-fluid {
-    margin: 0px 0px !important;
-    padding: 0px 20px !important;
-  }
-
-  .direction {
-    margin: 0px 0px !important;
-  }
-
-  .register-btn {
-    border: 1px solid #0191B6;
-  }
-
-  .rightbox {
-    margin: 30px 0px !important;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1279px) {
-  .event-card {
-    padding: 40px 50px;
-  }
-
-  .event-title,
-  .event-title a {
-    margin: 6px 10px 15px 0px;
-    font-size: 21px;
-  }
-
-  .right {
-    margin-left: -40px;
-  }
-
-  .event-card::before,
-  .rightbox:before {
-    left: 10px !important;
-  }
-
-  .left .img-fluid {
-    padding: 0px !important;
-  }
-
-  .mob {
-    padding: 0px !important;
-  }
-
-  .rightbox {
-    padding: 50px;
-    margin: 0px !important;
-  }
-
-  .left {
-    margin-right: 0px !important;
-    border-radius: 8px;
-  }
-}
-
-@media (min-width: 1280px) and (max-width: 1430px) {
-  .event-card {
-    padding: 50px;
-  }
-
-  .event-card::before {
-
-    left: 10px;
-    top: -10px;
-  }
-
-  .left {
-    margin-right: -10px !important;
-  }
-
-  .rightbox {
-    margin: 0px !important;
-    padding: 30px 95px 40px;
-  }
-
-  .rightbox:before {
-    bottom: 10px;
-    left: -10px !important;
-  }
-
-  .event-title,
-  .event-title a {
-
-    margin: 15px 14px 15px 0px;
-    font-size: 21px;
-  }
-}
-
-
-
-/* services end  */
 
 /* process  */
 
@@ -17076,7 +16744,7 @@ ul.event-details-list li {
 }
 
 .process-step {
-  background: #00bcd4;
+  background: #0191B6;
   text-align: center;
   width: 80%;
   margin: 0 auto;
@@ -17119,7 +16787,7 @@ ul.event-details-list li {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  border: 8px solid #00bcd4;
+  border: 8px solid #0191B6;
   box-shadow: 0 0 0px 4px #5c5c5c;
   margin: auto 0;
   position: absolute !important;
@@ -17151,11 +16819,13 @@ ul.event-details-list li {
 }
 
 .process-step p {
+  color: #fff !important;
   font-size: 20px;
 
 }
 
 .process-step h2 {
+  color: #fff !important;
   font-size: 39px !important;
   font-weight: 600;
 }
@@ -17518,18 +17188,15 @@ ul.event-details-list li {
 
 .faq-header {
   text-align: center;
-  margin: 40px;
+  margin: 0px 0px 30px;
 }
 
-.faq-header h1 {
-  font-size: 2rem;
-  color: #1a2e6c;
-  font-weight: bold;
+.faq-header h2 {
+  font-size: 36px;
+  color: #000;
 }
 
-.faq-header h1 span {
-  color: #0191B6;
-}
+
 
 .accordion-button {
   background-color: #f8f9fa;
@@ -17648,4 +17315,10 @@ ul.event-details-list li {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+
+.set-btm {
+  position: absolute;
+  bottom: -115px;
+  left: 41%;
 }
