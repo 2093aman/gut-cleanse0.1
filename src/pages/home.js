@@ -54,8 +54,8 @@ const home = () => {
                     <a className="bar__link" href="#aboutus">
                         ABOUT US
                     </a>
-                    <a className="bar__link" href="#healthcare">
-                        HEALTHCARE
+                    <a className="bar__link" href="#support">
+                        FEEDBACK
                     </a>
                     <a className="bar__link" href="#services">
                         SERVICES
@@ -95,17 +95,17 @@ const home = () => {
                                 className="btn-red mt-4 hombnr"
                                 data-bs-toggle="modal"
                             >
-                                <span>Get Started</span>
+                                <span>Enroll now</span>
                             </a>
                             <a href="#" className="btn-red mt-4 " data-bs-toggle="modal">
-                                <span>Contact Us</span>
+                                <span>Enroll now</span>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <section className="bannerbelow-area">
+            {/* <section className="bannerbelow-area">
                 <div className="container-fluid">
                     <div className="row ">
                         <div className="col-xl-4 col-lg-4 bg-darkred text-white p-20 d-flex align-items-center">
@@ -113,14 +113,14 @@ const home = () => {
                                 <div className="counterbtnHome me-4" data-aos="zoom-in">
                                     {" "}
                                     <h3>
-                                        <CountUp end={99} enableScrollSpy />
+                                        <CountUp end={1200} enableScrollSpy />+
                                     </h3>
                                 </div>
                                 <div className="flex-cont">
                                     <h3>
-                                        <Link href="/contactus">Contact Us</Link>
+                                        <Link href="/our-process">Our Process</Link>
                                     </h3>
-                                    <p className="mb-0">Reach Out for Exceptional Care</p>
+                                    <p className="mb-0">People healed</p>
                                 </div>
                             </div>
                         </div>
@@ -129,14 +129,14 @@ const home = () => {
                                 <div className="counterbtnHome me-4" data-aos="zoom-in">
                                     {" "}
                                     <h3>
-                                        <CountUp end={99} enableScrollSpy />
+                                        <CountUp end={21} enableScrollSpy />+
                                     </h3>
                                 </div>
                                 <div className="flex-cont">
                                     <h3>
-                                        <Link href="/locations">Locations</Link>
+                                        <Link href="/our-program"> Our Program</Link>
                                     </h3>
-                                    <p className="mb-0">Your Path to Better Health</p>
+                                    <p className="mb-0">Countries</p>
                                 </div>
                             </div>
                         </div>
@@ -145,24 +145,24 @@ const home = () => {
                                 <div className="counterbtnHome me-4" data-aos="zoom-in">
                                     {" "}
                                     <h3>
-                                        <CountUp end={99} enableScrollSpy />
+                                        <CountUp end={99} enableScrollSpy />% +
                                     </h3>
                                 </div>
                                 <div className="flex-cont">
                                     <h3>
-                                        <Link href="/services">Services</Link>
+                                        <Link href="/contactus">Contact Us</Link>
                                     </h3>
-                                    <p className="mb-0">Wide Variety of Services</p>
+                                    <p className="mb-0">Language Served</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section className="about-area pt-100 pb-100" id="aboutus">
                 <div className="container">
-                    <div className="row align-items-center">
+                    <div className="row  ">
                         <div className="col-xl-6 col-lg-6">
                             <div className="about-left pos-rel mb-30" data-aos="fade-up">
                                 <div className="about-author d-flex align-items-center">
@@ -191,18 +191,16 @@ const home = () => {
                         </div>
                         <div className="col-xl-6 col-lg-6 pb-10">
                             <div
-                                className="about-right pt-15 mb-30 homeab"
+                                className="about-right pt-15 mb-30  "
                                 data-aos="fade-right"
                             >
-                                <div className="section-title-2 mb-20">
+                                <div className="section-title-2  mt-5">
                                     <h2>About Us </h2>
 
                                 </div>
-                                <div className="about-text pr-5">
-                                    <p className="mb-3">
-                                        Our clinic is exactly what we think healthcare should be in the United States, and that starts with accepting multiple payment options and working with those who are underinsured or uninsured. </p>
-                                    <p className="mb-5">We are an affordable clinic in Houston, TX, because we believe money should never stand between you and the care you deserve.
-                                    </p>
+                                <div className="about-text  ">
+                                    <p className="mb-5">
+                                        At Gut Cleanse, we understand that vibrant health begins in your digestive system. Since 2015, our team of digestive wellness experts has helped thousands of people transform their lives through our science-backed, personalized gut health programs. We don't just mask symptoms – we dig deep to restore your microbiome balance and optimize your digestive function naturally. Drawing from both modern nutritional science and time-tested healing traditions, our gentle yet effective gut cleanse approach helps you overcome bloating, fatigue, and digestive discomfort while boosting your energy and overall wellbeing. Through our signature E.R.R.O.R. Method, we've guided busy professionals, parents, and health-conscious individuals to rediscover the joy of eating without fear or discomfort. Whether you're struggling with occasional digestive issues or looking to enhance your gut health, we're here to support you with practical solutions that fit your lifestyle.</p>
                                 </div>
                                 <ul className="counter-list pt-25 mb-4">
                                     <li>
@@ -237,97 +235,156 @@ const home = () => {
                 </div>
             </section>
 
-            <section className="departments-wrap-layout5 bg-light-accent100">
+
+
+
+
+            <section
+                className="departments-wrap-layout5 bg-light-accent100"
+                id="services"
+            >
                 <div className="container">
-                    <div className="row">
+                    <div className="row gutters-20">
+                        <h2 className="item-title text-center mb-60">Services</h2>
 
-                        <h2 className="item-title text-center mb-60">Program</h2>
-                        <div className="col-md-4">
-                            <div class="flip-box">
-                                <div class="flip-box-inner">
-                                    <div class="flip-box-front">
-                                        <h2>Comprehensive Initial Assessment </h2>
+                        <div
+                            className="col-lg-4 col-md-6 col-sm-6 col-12"
+                            data-aos="zoom-in"
+                        >
+                            <div className="departments-box-layout4 pedcare">
+                                <div className="box-content">
+                                    <div className="radborder">
+                                        <Image
+                                            src="/padiatric-icon.png"
+                                            width={0}
+                                            height={0}
+                                            sizes="100vw"
+                                            style={{ width: "56px", height: "auto" }}
+                                            alt="padiatric"
+                                        />
                                     </div>
-                                    <div class="flip-box-back">
-                                        <p>Detailed review of medical history<br />
-                                            Analysis of current symptoms and triggers<br />
-                                            Evaluation of lifestyle factors<br />
-                                            Assessment of nutritional needs<br />
-                                            Review of previous treatments and outcomes</p>
-                                    </div>
+                                    <h3 className="item-title">
+                                        <Link href="/our-program">Gut Reset Revolution</Link>
+                                    </h3>
+                                    <p>
+                                        Transform your relationship with health through our signature wellness program, crafted from over a decade of clinical success stories. We don't just address symptoms – we help you unlock lasting vitality by harmonizing your gut health, hormone balance, and mindful eating practices.
+                                    </p>
+                                    <Link href="/our-program" className="link">
+                                        Learn More
+                                    </Link>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4">
-                            <div class="flip-box">
-                                <div class="flip-box-inner">
-                                    <div class="flip-box-front">
-                                        <h2>Personalized Treatment Protocol
-                                        </h2>
+                        <div
+                            className="col-lg-4 col-md-6 col-sm-6 col-12"
+                            data-aos="zoom-in"
+                        >
+                            <div className="departments-box-layout4 wmser">
+                                <div className="box-content">
+                                    <div className="radborder">
+                                        <Image
+                                            src="/women-service-icon.png"
+                                            width={0}
+                                            height={0}
+                                            sizes="100vw"
+                                            style={{ width: "56px", height: "auto" }}
+                                            alt="women-service"
+                                        />
                                     </div>
-                                    <div class="flip-box-back">
-                                        <p>Custom-designed meal plans based on your specific symptoms and needs <br />
-                                            Therapeutic food combinations for optimal nutrient absorption
-                                            <br />   Anti-inflammatory recipe guide with over 50 gut-healing meals
-                                            <br /> Supplement recommendations when necessary (non-prescribed)
-                                            <br />  Lifestyle modification strategies for enhanced results</p>
-                                    </div>
+                                    <h3 className="item-title">
+                                        <Link href="/our-program">Gut & Glory™</Link>
+                                    </h3>
+                                    <p>
+                                        Stop letting digestive issues control your life. Our Gut & Glory™ program helps you break free from constant bloating, weird food reactions, and that frustrating afternoon energy crash. In just 14 days, you'll discover how amazing you can feel when your gut works with you, not against you.
+                                    </p>
+                                    <Link href="/our-program" className="link">
+                                        Learn More
+                                    </Link>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4">
-                            <div class="flip-box">
-                                <div class="flip-box-inner">
-                                    <div class="flip-box-front">
-                                        <h2>Ongoing Support System
-                                        </h2>
+                        <div
+                            className="col-lg-4 col-md-6 col-sm-6 col-12"
+                            data-aos="zoom-in"
+                        >
+                            <div className="departments-box-layout4 wmser">
+                                <div className="box-content">
+                                    <div className="radborder">
+                                        <Image
+                                            src="/women-service-icon.png"
+                                            width={0}
+                                            height={0}
+                                            sizes="100vw"
+                                            style={{ width: "56px", height: "auto" }}
+                                            alt="women-service"
+                                        />
                                     </div>
-                                    <div class="flip-box-back">
-                                        <p>Weekly one-on-one progress evaluations<br />
-                                            Daily group support through moderated WhatsApp community<br />
-                                            Access to our digital resource library<br />
-                                            Emergency support protocols for symptom flare-ups<br />
-                                            Post-program maintenance guidance</p>
-                                    </div>
+                                    <h3 className="item-title">
+                                        <Link href="/our-program">Gut Intelligence Workshop</Link>
+                                    </h3>
+                                    <p>
+                                        Discover how a thriving gut ecosystem shapes your physical and mental wellbeing through this transformative online workshop.
+                                    </p>
+                                    <Link href="/our-program" className="link">
+                                        Learn More
+                                    </Link>
                                 </div>
                             </div>
-                        </div> </div>
-                </div>
-            </section>
-
-
-            {/* here is the Health Journey */}
-
-            <section className="about-area pt-5 pb-5">
-                <div className="container pt-5 pb-5">
-                    <div className="row pt-5 pb-5">
-                        <div className="col-md-6">
-                            <div className="section-title-2 mb-20">
-                                <h2>Understanding Your Digestive Health Journey</h2>
-
-                            </div>
-                            <div className="about-text pr-5">
-                                <p className="mb-3">
-                                    Living with chronic digestive issues isn't just about physical discomfort – it impacts every aspect of your life. From the anxiety of planning meals to the frustration of unpredictable symptoms, gut health challenges can feel overwhelming. Our integrated approach addresses not just the symptoms, but the root causes of your digestive distress.
-                                </p>
+                        </div>
+                        {/* <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
+                            <div className="departments-box-layout4 behealth">
+                                <div className="box-content">
+                                    <div className="radborder"><Image src="/behavior-health-icon.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="behavior-health" /></div>
+                                    <h3 className="item-title"><Link href="/behavioral-health-services">Behavioral Health</Link></h3>
+                                    <p>Our specialized services include treatment and medication management, along with counseling, all provided in multiple languages.</p>
+                                    <Link href="/behavioral-health-services" className="link">Learn More</Link>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
-                            <Image
-                                src="/digestive.jpeg"
-                                alt="arrow"
-                                className="digestive"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                style={{ width: "auto", height: "auto" }}
-                            />
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
+                            <div className="departments-box-layout4 dencare">
+                                <div className="box-content">
+                                    <div className="radborder"><Image src="/dental-care-icon.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="dental" /></div>
+                                    <h3 className="item-title"><Link href="/dental-services">Dental Care</Link></h3>
+                                    <p>Dental care includes routine check-ups, cleanings, and preventive treatments to maintain optimal oral health.</p>
+                                    <Link href="/dental-services" className="link">Learn More</Link>
+                                </div>
+                            </div>
                         </div>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
+                            <div className="departments-box-layout4 eyecare">
+                                <div className="box-content">
+                                    <div className="radborder"><Image src="/eye-care-icon.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="education-icon" /></div>
+                                    <h3 className="item-title"><Link href="/vision-care">Vision Care</Link></h3>
+                                    <p>Our vision care services include thorough eye exams to assess vision and eye health, prescription eyewear fittings.</p>
+                                    <Link href="/vision-care" className="link">Learn More</Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
+                            <div className="departments-box-layout4 lbr">
+                                <div className="box-content">
+                                    <div className="radborder"><Image src="/blood-test.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="eye-care" /></div>
+                                    <h3 className="item-title"><Link href="/laboratory-services">Laboratory Services </Link></h3>
+                                    <p>Our clinic’s laboratory services offer accurate and timely diagnostic testing to support your health and wellness.</p>
+                                    <Link href="/laboratory-services" className="link">Learn More</Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
+                            <div className="departments-box-layout4 phrm">
+                                <div className="box-content">
+                                    <div className="radborder"><Image src="/pharmacy-icon.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="pharmacy" /></div>
+                                    <h3 className="item-title"><Link href="/pharmacy">Pharmacy</Link></h3>
+                                    <p>Our pharmacy offers comprehensive services to meet your medication needs. We provide prescription fulfillment.</p>
+                                    <Link href="/pharmacy" className="link">Learn More</Link>
+                                </div>
+                            </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
 
-            {/* here is the Health Journey */}
             <section className="features-wrap-layout1" id="healthcare ">
                 <div className="features-box-layout1 d-lg-flex  ">
                     <div className="item-inner-wrapper leftbxImage">
@@ -504,159 +561,38 @@ const home = () => {
                     </div>
                 </div>
             </section>
+            {/* here is the Health Journey */}
 
-            <section
-                className="departments-wrap-layout5 bg-light-accent100"
-                id="services"
-            >
-                <div className="container">
-                    <div className="row gutters-20">
-                        <h2 className="item-title text-center mb-60">Services</h2>
+            <section className="departments-wrap-layout5 bg-light-accent100">
+                <div className="container  ">
+                    <div className="row ">
+                        <div className="col-md-6">
+                            <Image
+                                src="/digestive.jpeg"
+                                alt="arrow"
+                                className="digestive"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                style={{ width: "auto", height: "auto" }}
+                            />
+                        </div>
+                        <div className="col-md-6">
+                            <div className="section-title-2 mb-20">
+                                <h2>Understanding Your Digestive Health Journey</h2>
 
-                        <div
-                            className="col-lg-4 col-md-6 col-sm-6 col-12"
-                            data-aos="zoom-in"
-                        >
-                            <div className="departments-box-layout4 pedcare">
-                                <div className="box-content">
-                                    <div className="radborder">
-                                        <Image
-                                            src="/padiatric-icon.png"
-                                            width={0}
-                                            height={0}
-                                            sizes="100vw"
-                                            style={{ width: "56px", height: "auto" }}
-                                            alt="padiatric"
-                                        />
-                                    </div>
-                                    <h3 className="item-title">
-                                        <Link href="/pediatric-care-services">Pediatric Care</Link>
-                                    </h3>
-                                    <p>
-                                        Pediatric care is essential for monitoring and supporting
-                                        the health and development of children from infancy through
-                                        adolescence.
-                                    </p>
-                                    <Link href="/pediatric-care-services" className="link">
-                                        Learn More
-                                    </Link>
-                                </div>
+                            </div>
+                            <div className="about-text pr-5">
+                                <p className="mb-3">
+                                    Living with chronic digestive issues isn't just about physical discomfort – it impacts every aspect of your life. From the anxiety of planning meals to the frustration of unpredictable symptoms, gut health challenges can feel overwhelming. Our integrated approach addresses not just the symptoms, but the root causes of your digestive distress.
+                                </p>
                             </div>
                         </div>
-                        <div
-                            className="col-lg-4 col-md-6 col-sm-6 col-12"
-                            data-aos="zoom-in"
-                        >
-                            <div className="departments-box-layout4 wmser">
-                                <div className="box-content">
-                                    <div className="radborder">
-                                        <Image
-                                            src="/women-service-icon.png"
-                                            width={0}
-                                            height={0}
-                                            sizes="100vw"
-                                            style={{ width: "56px", height: "auto" }}
-                                            alt="women-service"
-                                        />
-                                    </div>
-                                    <h3 className="item-title">
-                                        <Link href="/ob-gyn">Women’s Health (OB/GYN)</Link>
-                                    </h3>
-                                    <p>
-                                        Women&apos;s health care is vital for addressing the unique
-                                        medical needs of women at every stage, and management of
-                                        common .{" "}
-                                    </p>
-                                    <Link href="/ob-gyn" className="link">
-                                        Learn More
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            className="col-lg-4 col-md-6 col-sm-6 col-12"
-                            data-aos="zoom-in"
-                        >
-                            <div className="departments-box-layout4 wmser">
-                                <div className="box-content">
-                                    <div className="radborder">
-                                        <Image
-                                            src="/women-service-icon.png"
-                                            width={0}
-                                            height={0}
-                                            sizes="100vw"
-                                            style={{ width: "56px", height: "auto" }}
-                                            alt="women-service"
-                                        />
-                                    </div>
-                                    <h3 className="item-title">
-                                        <Link href="/ob-gyn">Women’s Health (OB/GYN)</Link>
-                                    </h3>
-                                    <p>
-                                        Women&apos;s health care is vital for addressing the unique
-                                        medical needs of women at every stage, and management of
-                                        common .{" "}
-                                    </p>
-                                    <Link href="/ob-gyn" className="link">
-                                        Learn More
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
-                            <div className="departments-box-layout4 behealth">
-                                <div className="box-content">
-                                    <div className="radborder"><Image src="/behavior-health-icon.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="behavior-health" /></div>
-                                    <h3 className="item-title"><Link href="/behavioral-health-services">Behavioral Health</Link></h3>
-                                    <p>Our specialized services include treatment and medication management, along with counseling, all provided in multiple languages.</p>
-                                    <Link href="/behavioral-health-services" className="link">Learn More</Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
-                            <div className="departments-box-layout4 dencare">
-                                <div className="box-content">
-                                    <div className="radborder"><Image src="/dental-care-icon.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="dental" /></div>
-                                    <h3 className="item-title"><Link href="/dental-services">Dental Care</Link></h3>
-                                    <p>Dental care includes routine check-ups, cleanings, and preventive treatments to maintain optimal oral health.</p>
-                                    <Link href="/dental-services" className="link">Learn More</Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
-                            <div className="departments-box-layout4 eyecare">
-                                <div className="box-content">
-                                    <div className="radborder"><Image src="/eye-care-icon.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="education-icon" /></div>
-                                    <h3 className="item-title"><Link href="/vision-care">Vision Care</Link></h3>
-                                    <p>Our vision care services include thorough eye exams to assess vision and eye health, prescription eyewear fittings.</p>
-                                    <Link href="/vision-care" className="link">Learn More</Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
-                            <div className="departments-box-layout4 lbr">
-                                <div className="box-content">
-                                    <div className="radborder"><Image src="/blood-test.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="eye-care" /></div>
-                                    <h3 className="item-title"><Link href="/laboratory-services">Laboratory Services </Link></h3>
-                                    <p>Our clinic’s laboratory services offer accurate and timely diagnostic testing to support your health and wellness.</p>
-                                    <Link href="/laboratory-services" className="link">Learn More</Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
-                            <div className="departments-box-layout4 phrm">
-                                <div className="box-content">
-                                    <div className="radborder"><Image src="/pharmacy-icon.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="pharmacy" /></div>
-                                    <h3 className="item-title"><Link href="/pharmacy">Pharmacy</Link></h3>
-                                    <p>Our pharmacy offers comprehensive services to meet your medication needs. We provide prescription fulfillment.</p>
-                                    <Link href="/pharmacy" className="link">Learn More</Link>
-                                </div>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
             </section>
 
+            {/* here is the Health Journey */}
             <section className="banner-wrap-layout1 parallaxie" id="support">
                 <div className="container">
                     <div className="row">
@@ -791,21 +727,19 @@ const home = () => {
                         <div className="col-xl-12 col-lg-12 col-md-12 col-12">
                             <div className="call-to-action-box-layout4" data-aos="zoom-in">
                                 <h2 className="item-title">
-                                    For more information about our services or to speak with a
-                                    representative from our Houston Community Clinic, please feel
-                                    free to contact us or give us a call today.
+                                    Explore Our Natural Gut Cleanse Programs and Improve Your Digestive Health! Begin your journey to optimal digestive wellness
                                 </h2>
 
                                 <div className="call-to-action-btn">
-                                    <Link href="/appointments" className="btn-red theme-btn">
-                                        <span>Book an Appointment</span>
+                                    <Link href="/our-program" className="btn-red theme-btn">
+                                        <span>OUR PROGRAMS</span>
                                     </Link>
                                     <span class="or">&nbsp; &nbsp;or&nbsp;&nbsp;</span>{" "}
                                     <a
-                                        href="tel:7137730803"
+                                        href="https://wa.me/9779994422" target="_blank"
                                         className="item-btn-phone btn-blue theme-btn"
                                     >
-                                        <span>Call Us: (713) 773-0803 </span>
+                                        <span>Call Us: +91 97799 94422 </span>
                                     </a>
                                 </div>
                             </div>
