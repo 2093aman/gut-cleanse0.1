@@ -169,7 +169,7 @@ const Navbar = () => {
                         
                       </li>
                       <li>
-                        <Link href="/services">Services</Link>
+                        <Link href="/our-program">Our Program</Link>
 
                        
                       </li>
