@@ -17638,7 +17638,14 @@ ul.event-details-list li {
 }
 
 .digestive {
-  width: 100% !important;
-  height: 230px !important;
+  width: 90% !important;
+  height: 320px !important;
   object-fit: contain;
+}
+
+.digestive-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
