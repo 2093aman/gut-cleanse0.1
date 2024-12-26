@@ -146,7 +146,7 @@ const Footer = () => {
         <section className="footer-top-wrap">
           <div className="container">
             <div className="row">
-              <div className="single-item col-lg-3 col-md-6 col-12">
+              <div className="single-item col-lg-4 col-md-6 col-12">
                 <div className="footer-box">
                   <div className="footer-header">
                     <a href="/" className="temp-logo mb-3">
@@ -162,15 +162,16 @@ const Footer = () => {
                     </a>
                     {/* <h3>FTCA</h3> */}
                   </div>
-                  <div className="footer-about">
+                  <div className="footer-about mt-3">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Proin tincidunt arcu in lacinia elementum. Ut bibendum
-                      nulla nisl, vitae varius dolor vestibulum rhoncus.
-                      <br />
+                      Gut Cleanse Inc. is India's leading digestive wellness
+                      center, specializing in personalized gut health programs
+                      that help you overcome digestive challenges and restore
+                      your natural vitality. Through our innovative E.R.R.O.R.
+                      Method and expert guidance, we've helped thousands achieve
+                      lasting digestive wellness. <br />
                       <br />
                     </p>
-                   
                   </div>
                 </div>
               </div>
@@ -188,9 +189,9 @@ const Footer = () => {
                       <li>
                         <Link href="/services">Our Services</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/careers">Careers</Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/contactus">Contact Us</Link>
                       </li>
@@ -199,7 +200,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="single-item col-lg-3 col-md-6 col-12">
+              <div className="single-item col-lg-2 col-md-6 col-12">
                 <div className="footer-box">
                   <div className="footer-header">
                     <h3>Services</h3>
@@ -257,13 +258,6 @@ const Footer = () => {
                     </div>
                   </div>
                   <div className="footer-quick-link">
-                    <p class="text-white">
-                      {" "}
-                      To speak to a healthcare provider for assistance outside
-                      of clinic hours, please call 713-773-0803. If you are
-                      experiencing a medical emergency, <br /> call 911.
-                    </p>
-
                     <ul class="sociallink d-flex">
                       <li>
                         <Link target="_blank" href="">
@@ -305,6 +299,13 @@ const Footer = () => {
                         </Link>
                       </li>
                     </ul>
+                    <a
+                      href="https://wa.me/9779994422"
+                      target="_blank"
+                      id="whatsapp-icon"
+                    >
+                      <img src="/whats.webp" alt="Chat with us on WhatsApp" />
+                    </a>
                   </div>
                 </div>
               </div>

@@ -236,7 +236,7 @@ const Service = () => {
                     NY 1019 <span>|</span> The Plaza Center
                   </p>
                 </div>
-				<div className="priceing-even">
+                <div className="priceing-even">
                   <div className="row">
                     <div className="col-md-3">
                       <h4>Price</h4>
@@ -329,7 +329,7 @@ const Service = () => {
                       <p>$56784</p>
                     </div>
                   </div>
-               </div>
+                </div>
                 <button class="register-btn">Register</button>
               </div>
             </div>
@@ -598,6 +598,81 @@ const Service = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="departments-wrap-layout5 bg-light-accent100">
+        <div className="container">
+          <div className="row">
+            <h2 className="item-title text-center mb-60">Program</h2>
+            <div className="col-md-4">
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <h2>Comprehensive Initial Assessment </h2>
+                  </div>
+                  <div class="flip-box-back">
+                    <p>
+                      Detailed review of medical history
+                      <br />
+                      Analysis of current symptoms and triggers
+                      <br />
+                      Evaluation of lifestyle factors
+                      <br />
+                      Assessment of nutritional needs
+                      <br />
+                      Review of previous treatments and outcomes
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <h2>Personalized Treatment Protocol</h2>
+                  </div>
+                  <div class="flip-box-back">
+                    <p>
+                      Custom-designed meal plans based on your specific symptoms
+                      and needs <br />
+                      Therapeutic food combinations for optimal nutrient
+                      absorption
+                      <br /> Anti-inflammatory recipe guide with over 50
+                      gut-healing meals
+                      <br /> Supplement recommendations when necessary
+                      (non-prescribed)
+                      <br /> Lifestyle modification strategies for enhanced
+                      results
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <h2>Ongoing Support System</h2>
+                  </div>
+                  <div class="flip-box-back">
+                    <p>
+                      Weekly one-on-one progress evaluations
+                      <br />
+                      Daily group support through moderated WhatsApp community
+                      <br />
+                      Access to our digital resource library
+                      <br />
+                      Emergency support protocols for symptom flare-ups
+                      <br />
+                      Post-program maintenance guidance
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>{" "}
           </div>
         </div>
       </section>
