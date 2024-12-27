@@ -4691,7 +4691,7 @@ a.temp-logo img {
 
 .radborder {
   margin: auto;
-  background: #015c93;
+  background: #03507e !important;
   width: 90px;
   height: 90px;
   border-radius: 50%;
@@ -14151,9 +14151,9 @@ section.bannerbelow-area {
 .aboutimg {
   z-index: 2;
   position: relative;
-  background: url(../../public/AboutUsHeroImage.jpg)  no-repeat;
+  background: url(../../public/AboutUsHeroImage.jpg) no-repeat;
   background-size: cover;
-  background-position:top;
+  background-position: top;
 }
 
 .bgservices {
@@ -16558,7 +16558,7 @@ ul.event-details-list li {
 
 /* home css  */
 
-.features-box-layout1 .item-content .item-content-inner.content-light .list-item li h4 span{
+.features-box-layout1 .item-content .item-content-inner.content-light .list-item li h4 span {
   margin-right: 15px;
 }
 
@@ -17273,14 +17273,6 @@ ul.event-details-list li {
 /* here isthe css of flipbox */
 
 .flip-box {
-  background-color: #0191B6;
-  box-shadow: 0px 1px 1px 0px rgba(221, 226, 229, 0.75);
-  height: 300px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px;
-}
-
-.flip-box {
   background-color: transparent;
   height: 300px;
   border: 1px solid #f1f1f1;
@@ -17299,35 +17291,10 @@ ul.event-details-list li {
   transform: rotateY(180deg);
 }
 
-.flip-box-front,
-.flip-box-back {
-  position: absolute;
-  width: 100%;
-  display: flex;
-  height: 300px;
-  background: #fff !important;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.flip-box-back p {
-  line-height: 22px;
-  font-size: 13px;
-  font-weight: 600;
-}
 
 .flip-box-front {
   background-color: #fff;
   color: black;
-}
-
-.flip-box-front h2 {
-  font-size: 28px;
-  font-weight: 600;
-  line-height: 32px;
 }
 
 .flip-box-back {
@@ -17367,8 +17334,9 @@ ul.event-details-list li {
 
 .set-btm {
   position: absolute;
-  bottom: -29px;   
+  bottom: -29px;
   left: 41%;
+
   
 }
   
@@ -17426,3 +17394,127 @@ h3.text-center {
   justify-content: center;
 }
   /* program inner  */
+=======
+
+}
+
+/* today css  */
+.height-aabout {
+  max-height: 400px;
+}
+
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  height: 300px;
+  padding: 30px;
+  background: #fff !important;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-box-back p {
+  line-height: 22px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.flip-box-front h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.accordion-body {
+  padding: 20px 30px;
+}
+
+.flip-box {
+  background-color: transparent;
+  box-shadow: 0px 1px 1px 0px rgba(221, 226, 229, 0.75);
+  height: 300px;
+  margin: 10px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.gut-health {
+  background: #fff;
+  margin: 10px;
+  padding: 25px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.gut-health h2 {
+  margin-top: 20px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.gut-health p {
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+
+.gut-health-list {
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+.gut-health-list::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  border-radius: 50%;
+  background: #03507e;
+  height: 10px;
+  left: 0px;
+  top: 5px;
+  transform: scale(1.1);
+}
+
+.gut-health:hover {
+  transition: 0.5s;
+  background: #f1f7fa;
+  transform: scale(1.1);
+}
+
+.gut-margin {
+  margin: 0px 150px;
+}
+
+.flip-box-front .radborder,
+.flip-box-back .radborder {
+  background: #03507e;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+  text-align: center;
+  margin: 0px auto 10px;
+  line-height: 65px;
+}
+
+.gut-health .radborder {
+  background: #03507e;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+  text-align: center;
+  margin: 0px;
+  line-height: 65px;
+}
+
