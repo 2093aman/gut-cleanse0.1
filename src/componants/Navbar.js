@@ -30,7 +30,7 @@ const Navbar = () => {
           <div class="d-flex justify-content-between align-items-center p-4">
             <a href="/" className="temp-logo">
               <Image
-                src="/home/logore.jpeg"
+                src="/logoM.png"
                 alt="logo"
                 className="img-fluid"
                 width={0}
@@ -146,7 +146,7 @@ const Navbar = () => {
               <div className="col-lg-2 col-md-2 logo-area-layout1">
                 <a href="/" className="temp-logo">
                   <Image
-                    src="/logore.jpeg"
+                    src="/logoM.png"
                     alt="logo"
                     className="img-fluid"
                     width={0}

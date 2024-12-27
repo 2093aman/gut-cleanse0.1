@@ -45,7 +45,7 @@ const About = () => {
       <section className="about-area pt-100 pb-100" id="aboutus">
         <div className="container">
           <div className="row  ">
-            <div className="col-xl-6 col-lg-6">
+            <div className="col-xl-6 col-lg-6"> 
               <div className="about-left pos-rel mb-30" data-aos="fade-up">
                 <div className="about-author d-flex align-items-center">
                   <div className="about-author-Image">
@@ -162,7 +162,7 @@ const About = () => {
                 </div>
                 <h3>Commitment</h3>
                 <p>
-                  We are committed 100% to closing healthcare gaps in the
+                  We are 100% committed to closing gut health gaps in the
                   community.
                 </p>
               </div>
@@ -242,7 +242,7 @@ const About = () => {
                 </div>
                 <h3>Excellence</h3>
                 <p>
-                  Our services are progressive — effective, comprehensive and of
+                  Our Program are progressive — effective, comprehensive and of
                   the highest quality.
                 </p>
               </div>
@@ -269,7 +269,7 @@ const About = () => {
                 </div>
                 <h3>Fiscal Soundness</h3>
                 <p>
-                  Our operations are efficient, our services affordable, and we
+                  Our operations are efficient, our program affordable, and we
                   maximize all resources.
                 </p>
               </div>
@@ -339,10 +339,9 @@ const About = () => {
                   <div className="weeklist">
                     <h4 className="fancybox-title">Our Mission</h4>
                     <p className="box-text">
-                      To provide quality healthcare without any prejudice to all
-                      people of Greater Houston in a culturally and
-                      linguistically competent manner.{" "}
+                    Our goal is to transform gut health by empowering people with evidence-based remedies that bring digestive harmony back and release maximum wellbeing. By means of education, specific guidance, and natural methods we enable individuals to get past persistent health issues and regain energy from within.<br/><br/>{" "}
                     </p>
+                    <p>{""}</p>
                   </div>
                 </div>
               </div>
@@ -364,8 +363,7 @@ const About = () => {
                   <div className="weeklist">
                     <h4 className="fancybox-title">Our Vision </h4>
                     <p>
-                      A healthy community with quality, affordable healthcare
-                      for all.
+                    Be the global leader in gut health revolution, building a society in which digestive wellness is seen as the basis of human life. We see societies flourishing with balanced microbiomes, where natural healing blossoms and drug reliance falls. Our method will establish new benchmarks in holistic wellness instruction, thus allowing everyone to have gut-oriented wellbeing at reach.
                     </p>
                   </div>
                 </div>
