@@ -14868,7 +14868,9 @@ img.radisuImage {
 .fancybox-layout4 .fancybox-item {
   min-height: 341px;
 }
-
+.progcard{
+  background-color: #f1f7fa;
+}
 .tags a.outlinelink {
   border: 1px solid #fff;
   color: #fff;
@@ -16624,8 +16626,11 @@ ul.event-details-list li {
   margin: 20px;
   padding: 25px !important;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 14px 0px 0px rgb(3 80 126);
+  background-color: #fff;
 }
+
+
 
 .days-left {
   font-size: 48px;
@@ -16641,7 +16646,7 @@ ul.event-details-list li {
 .event-title {
   font-size: 22px;
   font-weight: bold;
-  color: #0191B6;
+  color: #03507e;
 }
 
 .price-tab {
@@ -16652,8 +16657,7 @@ ul.event-details-list li {
 
 .price-money {
   margin: 8px 0px;
-  font-style: italic;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
 }
 
@@ -16699,7 +16703,47 @@ ul.event-details-list li {
   color: #666;
   font-size: 18px;
 }
+.btn-process {
+  position: relative;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 5px 14px;
+  font-weight: 500;
+  letter-spacing: .1em;
+  overflow: hidden;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #0191B6;
+  background: #0191B6;
+  border-radius: 8px;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
 
+.services-tre:before {
+  opacity: 0.90;
+  background-color: #2d738529;
+}
+
+.services-project{
+  z-index: 2;
+  position: relative;
+  background: url(/_next/static/media/AboutUsHeroImage.5636c17a.jpg)  no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.services-project:before {
+  opacity: 0.90;
+  background-color: #000000ad!important;
+}
+
+.pro-card.p-4:hover {
+  transform: scale(1.05);
+  transition: all 1s ease-out;
+}
 
 /* process  */
 
@@ -17327,3 +17371,58 @@ ul.event-details-list li {
   left: 41%;
   
 }
+  
+  /* program inner  */
+
+  .icon-box.program {
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: #03507e;
+    margin: 8px;
+    margin-bottom: 25px;
+}
+
+.icon-box.program:hover {
+  transform: scale(1.05);
+  transition: all 1s ease-out;
+}
+.icon-box.program img {
+  width: 45%!important;
+  border: 5px solid #0191b6;
+  border-radius: 50%;
+}
+.icon-box.program h4 {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 16px;
+  font-weight: 500;
+}
+
+.main-pay{
+  margin-top:50px;
+}
+
+.paysection {
+  padding: 40px 40px 40px 40px;
+  background-color: #f1f7fa;
+  margin-top: 50px;
+  box-shadow: 0px 1px 2px 14px #0191b6;
+  margin-bottom: 16px;
+}
+
+h3.text-center {
+  font-size: 22px;
+  font-weight: 600;
+  color: #000000;
+}
+.paybtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  /* program inner  */
