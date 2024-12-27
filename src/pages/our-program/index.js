@@ -33,7 +33,7 @@ const Service = () => {
         <div className="inner-page-banner breadcrumbs-off">
           <div className="container">
             <div className="entry-banner-content breadcrumbs-area">
-              <h1>Services</h1>
+              <h1>Our Program</h1>
               {/* <p>At Lorem Clinic, we go above and beyond the clinical aspect and provide services that help you gain the most out of your healthcare experience.</p> */}
               {/* <Link href="#" className="btn-red theme-btn  mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal"><span>Get Started</span></Link> */}
             </div>
@@ -45,16 +45,16 @@ const Service = () => {
         <div class="container d-flex align-items-center">
           <div class="row">
             <div class="col-12 mb-4">
-              <h2 className="item-title text-center ">Our Services</h2>
+              <h2 className="item-title text-center ">Our Program</h2>
             </div>
             <div class="col-md-4">
               <div class="pro-card p-4">
-                <div class="d-flex align-items-center mb-3">
+                {/* <div class="d-flex align-items-center mb-3">
                   <div class="days-left">7</div>
                   <div class="ms-2">
                     <span>Days Left</span>
                   </div>
-                </div>
+                </div> */}
                 <div class="event-title mb-2">Gut Reset Revolution</div>
                 <div class="event-description mb-3">
                   Meet authorized professionals in the fields of marketing,
@@ -85,10 +85,10 @@ const Service = () => {
             <div class="col-md-4">
               <div class="pro-card p-4">
                 <div class="d-flex align-items-center mb-3">
-                  <div class="days-left">7</div>
+                  {/* <div class="days-left">7</div>
                   <div class="ms-2">
                     <span>Days Left</span>
-                  </div>
+                  </div> */}
                 </div>
                 <div class="event-title mb-2">Gut & Glory™</div>
                 <div class="event-description mb-3">
@@ -118,12 +118,12 @@ const Service = () => {
               </div>
             </div>  <div class="col-md-4">
               <div class="pro-card p-4">
-                <div class="d-flex align-items-center mb-3">
+                {/* <div class="d-flex align-items-center mb-3">
                   <div class="days-left">7</div>
                   <div class="ms-2">
                     <span>Days Left</span>
                   </div>
-                </div>
+                </div> */}
                 <div class="event-title mb-2">Gut Intelligence Workshop</div>
                 <div class="event-description mb-3">
                   Meet authorized professionals in the fields of marketing,

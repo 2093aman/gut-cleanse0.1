@@ -4670,7 +4670,7 @@ a.temp-logo img {
 
 .call-to-action-box-layout4 .call-to-action-btn .item-btn-phone {
 
-  padding: 9px 30px;
+  padding: 9px 20px;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -11125,7 +11125,7 @@ section.call-to-action-wrap-layout4.bg-grey {
 
 .features-box-layout1 .item-content .item-content-inner.content-light .list-item li h4 span {
   color: #fff;
-  width: 30px;
+  width: 26px;
   display: inline-block;
   height: 30px;
   text-align: center;
@@ -12639,7 +12639,7 @@ footer {
 }
 
 .footer-header .temp-logo img {
-  width: 40% !important;
+  width: 50% !important;
 }
 
 .footer-box .footer-header {
@@ -14151,9 +14151,9 @@ section.bannerbelow-area {
 .aboutimg {
   z-index: 2;
   position: relative;
-  background: url(../../public/aboutrr.jpg) top center no-repeat;
+  background: url(../../public/AboutUsHeroImage.jpg)  no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position:top;
 }
 
 .bgservices {
@@ -16507,7 +16507,7 @@ ul.event-details-list li {
     border-radius: 5px;
     position: absolute;
     width: 290px !important;
-    top: 139px;
+    top: 184px;
     right: -70px;
     height: 338px !important;
   }
@@ -16555,6 +16555,10 @@ ul.event-details-list li {
 }
 
 /* home css  */
+
+.features-box-layout1 .item-content .item-content-inner.content-light .list-item li h4 span{
+  margin-right: 15px;
+}
 
 .hombnr {
   margin-right: 10px;
@@ -17319,6 +17323,7 @@ ul.event-details-list li {
 
 .set-btm {
   position: absolute;
-  bottom: -115px;
+  bottom: -29px;   
   left: 41%;
+  
 }

@@ -151,7 +151,7 @@ const Footer = () => {
                   <div className="footer-header">
                     <a href="/" className="temp-logo mb-3">
                       <Image
-                        src="/home/logotic.jpeg"
+                        src="/footerlogo.png"
                         alt="logo"
                         className="img-fluid mb-4"
                         width={0}
@@ -208,19 +208,17 @@ const Footer = () => {
                   <div className="footer-quick-link">
                     <ul>
                       <li>
-                        <Link href=""> Service 1</Link>
+                        <Link href="/our-program">Gut Reset Revolution™</Link>
                       </li>
                       <li>
-                        <Link href="">Service 2</Link>
+                        <Link href="/our-program">Gut & Glory™</Link>
                       </li>
                       <li>
-                        <Link target="" href="">
-                          Service 3
+                        <Link target="" href="/our-program">
+                        Gut Intelligence Workshop
                         </Link>
                       </li>
-                      <li>
-                        <Link href="">Service 4</Link>
-                      </li>
+                     
                     </ul>
                   </div>
                 </div>
@@ -260,8 +258,8 @@ const Footer = () => {
                   <div className="footer-quick-link">
                     <ul class="sociallink d-flex">
                        
-                      <li>
-                        <Link target="_blank" href="">
+                      <li>  
+                        <Link target="_blank" href="https://www.instagram.com/nancy_dehra">
                           <Image
                             src="/instagram-icon.svg"
                             alt="icon"
@@ -301,7 +299,7 @@ const Footer = () => {
               <div className="col-md-6">
                 <div className="copyright">
                   {" "}
-                  Copyright ©2024 Gut Cleanse inc.
+                  Copyright ©2024 Gut Cleanse Inc.
                 </div>
               </div>
             </div>
