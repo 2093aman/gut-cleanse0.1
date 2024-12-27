@@ -45,72 +45,228 @@ const About = () => {
       <section className="about-area pt-100 pb-100" id="aboutus">
         <div className="container">
           <div className="row  ">
-            <div className="col-xl-6 col-lg-6"> 
+            <div className="col-xl-6 col-lg-6">
               <div className="about-left pos-rel mb-30" data-aos="fade-up">
                 <div className="about-author d-flex align-items-center">
                   <div className="about-author-Image">
                     <Image
-                      src="/homebout.webp"
+                      src="/hoab.jpg"
                       alt="aboutus"
                       width={0}
                       height={0}
                       sizes="100vw"
                       style={{ width: "auto", height: "auto" }}
                     />
-                    <Image
-                      src="/homedown.webp"
+
+                    {/* <Image
+                      src="/Portrait.jpg"
                       alt="aboutus"
                       width={0}
                       height={0}
                       sizes="100vw"
                       className="homedown"
                       style={{ width: "auto", height: "auto" }}
-                    />
-                    <div className="circle-Image"></div>
+                    /> */}
+                    <div className="circle-Image">
+                      <Image
+                        src="/harticon.png"
+                        alt="circle-logo"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: "auto", height: "auto" }}
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-xl-6 col-lg-6 pb-10">
-              <div className="about-right pt-15 mb-30  " data-aos="fade-right">
-                <div className="section-title-2  mt-5">
-                  <h2>About Us </h2>
+              <div className="about-right height-aabout " data-aos="fade-right">
+                <div className="section-title-2  ">
+                  <h2>Our Philosophy</h2>
                 </div>
                 <div className="about-text  ">
-                  <p className="mb-5">
-                    At Gut Cleanse, we understand that vibrant health begins in
-                    your digestive system. Since 2015, our team of digestive
-                    wellness experts has helped thousands of people transform
-                    their lives through our science-backed, personalized gut
-                    health programs. We don't just mask symptoms – we dig deep
-                    to restore your microbiome balance and optimize your
-                    digestive function naturally. Drawing from both modern
-                    nutritional science and time-tested healing traditions, our
-                    gentle yet effective gut cleanse approach helps you overcome
-                    bloating, fatigue, and digestive discomfort while boosting
-                    your energy and overall wellbeing. Through our signature
-                    E.R.R.O.R. Method, we've guided busy professionals, parents,
-                    and health-conscious individuals to rediscover the joy of
-                    eating without fear or discomfort. Whether you're struggling
-                    with occasional digestive issues or looking to enhance your
-                    gut health, we're here to support you with practical
-                    solutions that fit your lifestyle.
+                  <p>
+                    At Gut Cleanse, we bridge the gap between traditional
+                    medical approaches and holistic wellness. Our program
+                    integrates current research in microbiome science with
+                    practical, sustainable lifestyle modifications.
                   </p>
-                </div>
-                <div className="abutHomebtn">
-                  <Link href="/about" className="btn-red theme-btn mt-4">
-                    <span>Learn More</span>
-                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="values icon-section bg-grey pt-120 pb-120">
+      <section className="pt-100 pb-100 bg-light-accent100">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 text-center mb-60">
+            <h2 className="item-title text-center mb-2 ">
+              Clinical Foundation
+            </h2>
+
+            <p className=" text-center mb-5 pb-4">
+              Our approach is built on three core principles:
+            </p>
+
+            <div className="col-md-4">
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <div className="radborder">
+                      {" "}
+                      <Image
+                        src="/blood-test.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: "45px", height: "auto" }}
+                        alt="pharmacy"
+                      />
+                    </div>
+                    <h2>Evidence-Based Methodology</h2>
+                  </div>
+                  <div class="flip-box-back">
+                    <p>
+                      Every aspect of our program is grounded in peer-reviewed
+                      research and clinical experience. We continuously update
+                      our protocols based on the latest findings in gut health
+                      and microbiome science.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <div className="radborder">
+                      {" "}
+                      <Image
+                        src="/primary-care.webp"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: "45px", height: "auto" }}
+                        alt="pharmacy"
+                      />
+                    </div>{" "}
+                    <h2>Personalized Care </h2>
+                  </div>
+                  <div class="flip-box-back">
+                    <p>
+                      We know very well that your gut tells a different story.
+                      Our comprehensive program takes into account your unique
+                      nutritional requirements and everyday stress factors, yet
+                      it also matches your symptom trends, medical history,
+                      lifestyle requirements, and cultural habits.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <div className="radborder">
+                      {" "}
+                      <Image
+                        src="/cultural-activities.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: "45px", height: "auto" }}
+                        alt="pharmacy"
+                      />
+                    </div>{" "}
+                    <h2>Sustainable Results </h2>
+                  </div>
+                  <div class="flip-box-back">
+                    <p>
+                      We focus on genuine, long-lasting transformation to go
+                      beyond superficial remedies. By means of hands-on
+                      training, skill development, and flawless lifestyle
+                      integration, we lay the foundation for long-term wellness.
+                      Our strategic thinking and ongoing assistance ensure that
+                      your growth will last.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="pt-100 pb-100 about-area">
+        <div className="container">
+          <div className="row gut-margin">
+            <h2 className="item-title text-center mb-5 ">
+              Understanding Gut Health
+            </h2>
+            <div className="col-lg-6 col-sm-6 mt-4">
+              <div className="gut-health">
+                <div className="radborder">
+                  <Image
+                    src="/behavior-health-icon.png"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "45px", height: "auto" }}
+                    alt="pharmacy"
+                  />
+                </div>
+
+                <h2>The Microbiome Connection </h2>
+
+                <ul>
+                  <li class="gut-health-list">Nutrient absorption </li>
+                  <li class="gut-health-list">Immune system function</li>
+                  <li class="gut-health-list">Hormone regulation</li>
+                  <li class="gut-health-list">Neurotransmitter production</li>
+                  <li class="gut-health-list">Inflammation levels </li>
+                  <li class="gut-health-list">Energy metabolism </li>
+                  <li class="gut-health-list">Mental health stability</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-6 col-sm-6 mt-4">
+              <div className="gut-health">
+                <div className="radborder">
+                  {" "}
+                  <Image
+                    src="/padiatric-icon.png"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "45px", height: "auto" }}
+                    alt="pharmacy"
+                  />
+                </div>
+
+                <h2>Common Disrupting Factors</h2>
+                <ul>
+                  <li class="gut-health-list">Chronic stress</li>
+                  <li class="gut-health-list">Processed food consumption </li>
+                  <li class="gut-health-list">Antibiotic use </li>
+                  <li class="gut-health-list">Neurotransmitter production</li>
+                  <li class="gut-health-list">Inflammation levels </li>
+                  <li class="gut-health-list">Energy metabolism </li>
+                  <li class="gut-health-list">Mental health stability</li>
+                </ul>
+              </div>
+            </div>{" "}
+          </div>
+        </div>
+      </section>
+
+      <section className="values icon-section bg-grey pt-100 pb-100">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 text-center mb-5">
               <h2>Our Values </h2>
             </div>
 
@@ -296,38 +452,38 @@ const About = () => {
       </section>
 
       <section
-        className="fancybox-layout1 bg-overlay bg-overlay-primary-gradient pt-120 pb-0 bg-Image pb-120 helpingbox"
+        className="departments-wrap-layout5 bg-light-accent100"
         id="history"
       >
         <div className="container">
-          <div className="row">
-            {/* <div className="col-2 col-xl-1">
+          {/* <div className="row">
+            <div className="col-2 col-xl-1">
             <div className="heading-divider mb-3"></div>
-          </div> */}
+          </div>
             <div className="col-sm-12 col-md-12 col-lg-12 col-xl-8">
               <div className="heading mb-50">
-                {/* <h3 className="heading-title color-white">Helping To Deliver Answers For Health Questions With Fixed
-                Commitment To Excellence  Quality Of Our Results.</h3> */}
+                <h3 className="heading-title color-white">Helping To Deliver Answers For Health Questions With Fixed
+                Commitment To Excellence  Quality Of Our Results.</h3>
               </div>
             </div>
-          </div>
-          <div className="row justify-content-end mb-30">
+          </div> */}
+          {/* <div className="row justify-content-end mb-30">
             <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              {/* <p className="heading-desc color-white mb-20">To provide a comfortable and safe environment for our patients,
+              <p className="heading-desc color-white mb-20">To provide a comfortable and safe environment for our patients,
               please avoid wearing scented perfumes or creams when visiting us.
-            </p> */}
-              {/* <div className="certificates-container d-flex align-items-center mb-10">
+            </p>
+              <div className="certificates-container d-flex align-items-center mb-10">
              
-            </div> */}
             </div>
-          </div>
+            </div>
+          </div> */}
           <div className="row">
             <div className="col-sm-6 col-d-4 col-lg-6" id="houroperation">
               <div className="fancybox-item weekbx" data-aos="slide-up">
                 <div className="fancybox-body d-flex align-items-center">
                   <div className="icon zoom-in-zoom-out">
                     <Image
-                      src="/mission.png"
+                      src="/mission1.png"
                       alt="mission"
                       width={0}
                       height={0}
@@ -339,7 +495,14 @@ const About = () => {
                   <div className="weeklist">
                     <h4 className="fancybox-title">Our Mission</h4>
                     <p className="box-text">
-                    Our goal is to transform gut health by empowering people with evidence-based remedies that bring digestive harmony back and release maximum wellbeing. By means of education, specific guidance, and natural methods we enable individuals to get past persistent health issues and regain energy from within.<br/><br/>{" "}
+                      Our goal is to transform gut health by empowering people
+                      with evidence-based remedies that bring digestive harmony
+                      back and release maximum wellbeing. By means of education,
+                      specific guidance, and natural methods we enable
+                      individuals to get past persistent health issues and
+                      regain energy from within.
+                      <br />
+                      <br />{" "}
                     </p>
                     <p>{""}</p>
                   </div>
@@ -352,7 +515,7 @@ const About = () => {
                 <div className="fancybox-body d-flex align-items-center">
                   <div className="icon zoom-in-zoom-out">
                     <Image
-                      src="/shared-vision.png"
+                      src="/vission22.png"
                       alt="vision"
                       width={0}
                       height={0}
@@ -363,7 +526,13 @@ const About = () => {
                   <div className="weeklist">
                     <h4 className="fancybox-title">Our Vision </h4>
                     <p>
-                    Be the global leader in gut health revolution, building a society in which digestive wellness is seen as the basis of human life. We see societies flourishing with balanced microbiomes, where natural healing blossoms and drug reliance falls. Our method will establish new benchmarks in holistic wellness instruction, thus allowing everyone to have gut-oriented wellbeing at reach.
+                      Be the global leader in gut health revolution, building a
+                      society in which digestive wellness is seen as the basis
+                      of human life. We see societies flourishing with balanced
+                      microbiomes, where natural healing blossoms and drug
+                      reliance falls. Our method will establish new benchmarks
+                      in holistic wellness instruction, thus allowing everyone
+                      to have gut-oriented wellbeing at reach.
                     </p>
                   </div>
                 </div>
@@ -373,42 +542,13 @@ const About = () => {
         </div>
       </section>
 
-      <section className="call-to-action-wrap-layout4">
-        <div className="item-Image"></div>
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-12 col-lg-12 col-md-12 col-12">
-              <div className="call-to-action-box-layout4" data-aos="slide-up">
-                <h2 className="item-title">
-                  For more information about our services or to speak with a
-                  representative from our Houston Community Clinic, please feel
-                  free to contact us or give us a call today.
-                </h2>
-
-                <div className="call-to-action-btn">
-                  <Link href="/appointments" className="btn-red theme-btn">
-                    <span>Book an Appointment</span>
-                  </Link>
-                  <span class="or">&nbsp; &nbsp;or&nbsp;&nbsp;</span>{" "}
-                  <a
-                    href="tel:7137730803"
-                    className="item-btn-phone btn-blue theme-btn"
-                  >
-                    <span>Call Us: (713) 773-0803 </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="mt-4 mb-5 departments-wrap-layout5 bg-light-accent100 ">
+      
+      <section className=" departments-wrap-layout5  ">
         <div class="container">
           <div class="faq-header">
-            <h2>About Gut Health</h2>
+            <h2 class=" ">About Gut Health</h2>
           </div>
-          <div class="accordion mb-5" id="faqAccordion">
+          <div class="accordion mt-8 mb-5" id="faqAccordion">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button
@@ -538,7 +678,7 @@ const About = () => {
                 </div>
               </div>
             </div>{" "}
-            {/* <div class="accordion-item">
+            <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button
                   class="accordion-button collapsed"
@@ -656,7 +796,264 @@ const About = () => {
                   commitments.
                 </div>
               </div>
-            </div>{" "} */}
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse1"
+                  aria-expanded="false"
+                  aria-controls="collapseTe"
+                >
+                  What kind of support is available?
+                </button>
+              </h2>
+              <div
+                id="collapse1"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTe"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  We provide multiple layers of support:
+                  <br /> • WhatsApp support
+                  <br /> • Emergency support protocols for one on one programs.
+                  <br /> • Written guides and resources
+                  <br /> • Recipe database access
+                  <br /> • Post-program maintenance support
+                </div>
+              </div>
+            </div>{" "}
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse2"
+                  aria-expanded="false"
+                  aria-controls="collapseTe"
+                >
+                  Are the dietary changes difficult to maintain?
+                </button>
+              </h2>
+              <div
+                id="collapse2"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTe"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  Our program emphasizes gradual, sustainable changes rather
+                  than extreme restrictions. We provide:
+                  <br /> • Practical meal plans
+                  <br /> • Easy-to-follow recipes
+                  <br /> • Meal prep tips
+                  <br /> • Dining out strategies
+                  <br /> • Family-friendly options
+                </div>
+              </div>
+            </div>{" "}
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse3"
+                  aria-expanded="false"
+                  aria-controls="collapseTe"
+                >
+                  What about special dietary requirements?
+
+                </button>
+              </h2>
+              <div
+                id="collapse3"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTe"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  We accommodate various dietary needs, including:<br />
+                  • Vegetarian/Vegan<br />
+                  • Gluten-free<br />
+                  • Dairy-free<br />
+                  • Cultural food preferences<br />
+                  • Common allergies
+
+                </div>
+              </div>
+            </div>{" "}
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse4"
+                  aria-expanded="false"
+                  aria-controls="collapseTe"
+                >
+                  When will I start seeing results?
+
+                </button>
+              </h2>
+              <div
+                id="collapse4"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTe"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+
+                  While everyone's experience is different:<br />
+                  • Many notice reduced bloating within the first week<br />
+                  • Energy improvements often begin in days 5-10<br />
+                  • Bowel movements typically normalize within the first week<br />
+                  • Mood improvements often occur by week 2<br />
+                  • Long-term benefits continue to develop over several weeks
+
+                </div>
+              </div>
+            </div>{" "}
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse5"
+                  aria-expanded="false"
+                  aria-controls="collapseTe"
+                >
+                  How can I maintain results after the program?
+
+                </button>
+              </h2>
+              <div
+                id="collapse5"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTe"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  We provide comprehensive post-program support:<br />
+                  • Detailed maintenance guide<br />
+                  • Reintroduction protocols<br />
+                  • Long-term dietary guidelines<br />
+                  • Lifestyle maintenance strategies<br />
+                  • Ongoing group support options<br />
+                  • Follow-up consultation opportunities
+
+                </div>
+              </div>
+            </div>{" "}
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse6"
+                  aria-expanded="false"
+                  aria-controls="collapseTe"
+                >
+                  What if I experience difficulties during the program?
+
+                </button>
+              </h2>
+              <div
+                id="collapse6"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTe"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  We provide robust support for challenges:
+                  <br />
+                  • Direct access to specialists
+                  <br />
+                  • Emergency protocols for symptom flare-ups
+                  <br />
+                  • Modification options for difficult transitions
+                  <br />
+                  • Alternative strategies when needed
+                  <br />
+                  • Emotional support resources
+                  <br />
+                  • Practical problem-solving guidance
+
+                </div>
+              </div>
+            </div>{" "}
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTe"
+                  aria-expanded="false"
+                  aria-controls="collapseTe"
+                >
+                  Is there a best time to start?
+                </button>
+              </h2>
+              <div
+                id="collapseTe"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTe"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  Consider starting when:<br />
+                  •
+                  You can focus on self-care<br />
+                  •
+                  Major work projects are manageable<br />
+                  •
+                  Social commitments are lighter<br />
+                  •
+                  You have adequate support at home<br />
+                  •
+                  You're ready for positive change
+
+                </div>
+              </div>
+            </div>{" "}
+
+          </div>
+        </div>
+      </section>    <section className="pt-100 pb-100 bg-light-accent100">
+        <div className="item-Image"></div>
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-12 col-lg-12 col-md-12 col-12">
+              <div className="call-to-action-box-layout4" data-aos="zoom-in">
+                <h2 className="item-title">
+                  Explore Our Natural Gut Cleanse Programs and Improve Your
+                  Digestive Health! Begin your journey to optimal digestive
+                  wellness
+                </h2>
+
+                <div className="call-to-action-btn">
+                  <Link href="/our-program" className="btn-red theme-btn">
+                    <span>OUR PROGRAMS</span>
+                  </Link>
+                  <span class="or">&nbsp; &nbsp;or&nbsp;&nbsp;</span>{" "}
+                  <a
+                    href="https://wa.me/9779994422"
+                    target="_blank"
+                    className="item-btn-phone btn-blue theme-btn"
+                  >
+                    <span>Call: 9779994422 </span>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

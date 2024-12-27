@@ -158,7 +158,7 @@ const home = () => {
                       sizes="100vw"
                       style={{ width: "auto", height: "auto" }}
                     />
-                      
+
                     {/* <Image
                       src="/Portrait.jpg"
                       alt="aboutus"
@@ -169,7 +169,14 @@ const home = () => {
                       style={{ width: "auto", height: "auto" }}
                     /> */}
                     <div className="circle-Image">
-                    <Image src="/harticon.png" alt="circle-logo" width={0} height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }} />
+                      <Image
+                        src="/harticon.png"
+                        alt="circle-logo"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: "auto", height: "auto" }}
+                      />
                     </div>
                   </div>
                 </div>
@@ -216,8 +223,8 @@ const home = () => {
                     <p>Countries</p>
                   </li>
                   <li>
-                    <h3 >
-                      <CountUp  end={99} enableScrollSpy />
+                    <h3>
+                      <CountUp end={99} enableScrollSpy />
                       %+{" "}
                     </h3>
                     <p>Satisfaction</p>
@@ -253,7 +260,17 @@ const home = () => {
               </div>
               <div className="about-text pr-5">
                 <p className="mb-3">
-                Living with chronic digestive issues isn't just about physical discomfort—it impacts every aspect of your life. From the anxiety of planning meals to the frustration of unpredictable symptoms like bloating, gas, and indigestion, gut health challenges can feel overwhelming. We understand. That's why our integrated approach focuses on more than just masking symptoms; we delve into the root causes of your digestive distress to help you improve gut health naturally. Through our specialized gut cleanse programs, we address imbalances in your gut microbiome, supporting optimal digestive health and helping you reclaim control of your well-being.
+                  Living with chronic digestive issues isn't just about physical
+                  discomfort—it impacts every aspect of your life. From the
+                  anxiety of planning meals to the frustration of unpredictable
+                  symptoms like bloating, gas, and indigestion, gut health
+                  challenges can feel overwhelming. We understand. That's why
+                  our integrated approach focuses on more than just masking
+                  symptoms; we delve into the root causes of your digestive
+                  distress to help you improve gut health naturally. Through our
+                  specialized gut cleanse programs, we address imbalances in
+                  your gut microbiome, supporting optimal digestive health and
+                  helping you reclaim control of your well-being.
                 </p>
               </div>
             </div>
@@ -296,7 +313,7 @@ const home = () => {
                                 sizes="100vw"
                                 style={{ width: "auto", height: "auto" }}
                               />
-                            </span>{" "}{" "}{" "}
+                            </span>{" "}
                             Chronic inflammation and bloating
                           </h4>
                         </li>
@@ -312,10 +329,10 @@ const home = () => {
                                 sizes="100vw"
                                 style={{ width: "auto", height: "auto" }}
                               />
-                            </span>{" "}{" "}{" "}
+                            </span>{" "}
                             Compromised nutrient absorption
                           </h4>
-                        </li>{" "}{" "}{" "}
+                        </li>{" "}
                         <li>
                           <h4>
                             <span className="">
@@ -328,7 +345,7 @@ const home = () => {
                                 sizes="100vw"
                                 style={{ width: "auto", height: "auto" }}
                               />
-                            </span>{" "}{" "}{" "}
+                            </span>{" "}
                             Irregular bowel movements
                           </h4>
                         </li>{" "}
@@ -344,7 +361,7 @@ const home = () => {
                                 sizes="100vw"
                                 style={{ width: "auto", height: "auto" }}
                               />
-                            </span>{" "}{" "}{" "}
+                            </span>{" "}
                             Mood fluctuations and anxiety
                           </h4>
                         </li>{" "}
@@ -360,7 +377,7 @@ const home = () => {
                                 sizes="100vw"
                                 style={{ width: "auto", height: "auto" }}
                               />
-                            </span>{" "}{" "}{" "}
+                            </span>{" "}
                             Hormonal imbalances
                           </h4>
                         </li>
@@ -376,7 +393,7 @@ const home = () => {
                                 sizes="100vw"
                                 style={{ width: "auto", height: "auto" }}
                               />
-                            </span>{" "}{" "}{" "}
+                            </span>{" "}
                             Unexplained weight changes
                           </h4>
                         </li>
@@ -392,7 +409,7 @@ const home = () => {
                                 sizes="100vw"
                                 style={{ width: "auto", height: "auto" }}
                               />
-                            </span>{" "}{" "}{" "}
+                            </span>{" "}
                             Skin problems and inflammation{" "}
                           </h4>
                         </li>
@@ -409,7 +426,7 @@ const home = () => {
                                 style={{ width: "auto", height: "auto" }}
                               />
                             </span>{" "}
-                            Autoimmune responses{" "}{" "}{" "}
+                            Autoimmune responses{" "}
                           </h4>
                         </li>
                       </ul>
@@ -530,7 +547,12 @@ const home = () => {
                     <Link href="/our-program">Gut Intelligence Workshop</Link>
                   </h3>
                   <p>
-                  Your gut is more than just a digestive system - it's your body's second brain and command center for total wellness. In this transformative workshop, dive deep into the fascinating world of your microbiome and discover how it orchestrates everything from your immune response to your emotional wellbeing.
+                    Your gut is more than just a digestive system - it's your
+                    body's second brain and command center for total wellness.
+                    In this transformative workshop, dive deep into the
+                    fascinating world of your microbiome and discover how it
+                    orchestrates everything from your immune response to your
+                    emotional wellbeing.
                   </p>
                   <Link href="/our-program" className="link set-btm">
                     Learn More
@@ -538,56 +560,157 @@ const home = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
-                            <div className="departments-box-layout4 behealth">
-                                <div className="box-content">
-                                    <div className="radborder"><Image src="/behavior-health-icon.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="behavior-health" /></div>
-                                    <h3 className="item-title"><Link href="/behavioral-health-services">Behavioral Health</Link></h3>
-                                    <p>Our specialized services include treatment and medication management, along with counseling, all provided in multiple languages.</p>
-                                    <Link href="/behavioral-health-services" className="link">Learn More</Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
-                            <div className="departments-box-layout4 dencare">
-                                <div className="box-content">
-                                    <div className="radborder"><Image src="/dental-care-icon.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="dental" /></div>
-                                    <h3 className="item-title"><Link href="/dental-services">Dental Care</Link></h3>
-                                    <p>Dental care includes routine check-ups, cleanings, and preventive treatments to maintain optimal oral health.</p>
-                                    <Link href="/dental-services" className="link">Learn More</Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
-                            <div className="departments-box-layout4 eyecare">
-                                <div className="box-content">
-                                    <div className="radborder"><Image src="/eye-care-icon.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="education-icon" /></div>
-                                    <h3 className="item-title"><Link href="/vision-care">Vision Care</Link></h3>
-                                    <p>Our vision care services include thorough eye exams to assess vision and eye health, prescription eyewear fittings.</p>
-                                    <Link href="/vision-care" className="link">Learn More</Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
-                            <div className="departments-box-layout4 lbr">
-                                <div className="box-content">
-                                    <div className="radborder"><Image src="/blood-test.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="eye-care" /></div>
-                                    <h3 className="item-title"><Link href="/laboratory-services">Laboratory Services </Link></h3>
-                                    <p>Our clinic’s laboratory services offer accurate and timely diagnostic testing to support your health and wellness.</p>
-                                    <Link href="/laboratory-services" className="link">Learn More</Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-12" data-aos="zoom-in">
-                            <div className="departments-box-layout4 phrm">
-                                <div className="box-content">
-                                    <div className="radborder"><Image src="/pharmacy-icon.png" width={0} height={0} sizes="100vw" style={{ width: '56px', height: 'auto' }} alt="pharmacy" /></div>
-                                    <h3 className="item-title"><Link href="/pharmacy">Pharmacy</Link></h3>
-                                    <p>Our pharmacy offers comprehensive services to meet your medication needs. We provide prescription fulfillment.</p>
-                                    <Link href="/pharmacy" className="link">Learn More</Link>
-                                </div>
-                            </div>
-                        </div> */}
+
+            {/* <div
+              className="col-lg-3 col-md-6 col-sm-6 col-12"
+              data-aos="zoom-in"
+            >
+              <div className="departments-box-layout4 behealth">
+                <div className="box-content">
+                  <div className="radborder">
+                    <Image
+                      src="/behavior-health-icon.png"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "56px", height: "auto" }}
+                      alt="behavior-health"
+                    />
+                  </div>
+                  <h3 className="item-title">
+                    <Link href="/behavioral-health-services">
+                      Behavioral Health
+                    </Link>
+                  </h3>
+                  <p>
+                    Our specialized services include treatment and medication
+                    management, along with counseling, all provided in multiple
+                    languages.
+                  </p>
+                  <Link href="/behavioral-health-services" className="link">
+                    Learn More
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-3 col-md-6 col-sm-6 col-12"
+              data-aos="zoom-in"
+            >
+              <div className="departments-box-layout4 dencare">
+                <div className="box-content">
+                  <div className="radborder">
+                    <Image
+                      src="/dental-care-icon.png"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "56px", height: "auto" }}
+                      alt="dental"
+                    />
+                  </div>
+                  <h3 className="item-title">
+                    <Link href="/dental-services">Dental Care</Link>
+                  </h3>
+                  <p>
+                    Dental care includes routine check-ups, cleanings, and
+                    preventive treatments to maintain optimal oral health.
+                  </p>
+                  <Link href="/dental-services" className="link">
+                    Learn More
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-3 col-md-6 col-sm-6 col-12"
+              data-aos="zoom-in"
+            >
+              <div className="departments-box-layout4 eyecare">
+                <div className="box-content">
+                  <div className="radborder">
+                    <Image
+                      src="/eye-care-icon.png"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "56px", height: "auto" }}
+                      alt="education-icon"
+                    />
+                  </div>
+                  <h3 className="item-title">
+                    <Link href="/vision-care">Vision Care</Link>
+                  </h3>
+                  <p>
+                    Our vision care services include thorough eye exams to
+                    assess vision and eye health, prescription eyewear fittings.
+                  </p>
+                  <Link href="/vision-care" className="link">
+                    Learn More
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-3 col-md-6 col-sm-6 col-12"
+              data-aos="zoom-in"
+            >
+              <div className="departments-box-layout4 lbr">
+                <div className="box-content">
+                  <div className="radborder">
+                    <Image
+                      src="/blood-test.png"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "56px", height: "auto" }}
+                      alt="eye-care"
+                    />
+                  </div>
+                  <h3 className="item-title">
+                    <Link href="/laboratory-services">
+                      Laboratory Services{" "}
+                    </Link>
+                  </h3>
+                  <p>
+                    Our clinic’s laboratory services offer accurate and timely
+                    diagnostic testing to support your health and wellness.
+                  </p>
+                  <Link href="/laboratory-services" className="link">
+                    Learn More
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-3 col-md-6 col-sm-6 col-12"
+              data-aos="zoom-in"
+            >
+              <div className="departments-box-layout4 phrm">
+                <div className="box-content">
+                  <div className="radborder">
+                    <Image
+                      src="/pharmacy-icon.png"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "56px", height: "auto" }}
+                      alt="pharmacy"
+                    />
+                  </div>
+                  <h3 className="item-title">
+                    <Link href="/pharmacy">Pharmacy</Link>
+                  </h3>
+                  <p>
+                    Our pharmacy offers comprehensive services to meet your
+                    medication needs. We provide prescription fulfillment.
+                  </p>
+                  <Link href="/pharmacy" className="link">
+                    Learn More
+                  </Link>
+                </div>
+              </div>
+            </div> */}
           </div>
         </div>
       </section>
