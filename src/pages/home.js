@@ -151,23 +151,26 @@ const home = () => {
                 <div className="about-author d-flex align-items-center">
                   <div className="about-author-Image">
                     <Image
-                      src="/homebout.webp"
+                      src="/hoab.jpg"
                       alt="aboutus"
                       width={0}
                       height={0}
                       sizes="100vw"
                       style={{ width: "auto", height: "auto" }}
                     />
-                    <Image
-                      src="/homedown.webp"
+                      
+                    {/* <Image
+                      src="/Portrait.jpg"
                       alt="aboutus"
                       width={0}
                       height={0}
                       sizes="100vw"
                       className="homedown"
                       style={{ width: "auto", height: "auto" }}
-                    />
-                    <div className="circle-Image"></div>
+                    /> */}
+                    <div className="circle-Image">
+                    <Image src="/harticon.png" alt="circle-logo" width={0} height={0} sizes="100vw" style={{ width: 'auto', height: 'auto' }} />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -210,11 +213,11 @@ const home = () => {
                     <h3>
                       <CountUp end={21} enableScrollSpy />+
                     </h3>
-                    <p>Country</p>
+                    <p>Countries</p>
                   </li>
                   <li>
-                    <h3>
-                      <CountUp end={99.3} enableScrollSpy />
+                    <h3 >
+                      <CountUp  end={99} enableScrollSpy />
                       %+{" "}
                     </h3>
                     <p>Satisfaction</p>
@@ -250,12 +253,7 @@ const home = () => {
               </div>
               <div className="about-text pr-5">
                 <p className="mb-3">
-                  Living with chronic digestive issues isn't just about physical
-                  discomfort – it impacts every aspect of your life. From the
-                  anxiety of planning meals to the frustration of unpredictable
-                  symptoms, gut health challenges can feel overwhelming. Our
-                  integrated approach addresses not just the symptoms, but the
-                  root causes of your digestive distress.
+                Living with chronic digestive issues isn't just about physical discomfort—it impacts every aspect of your life. From the anxiety of planning meals to the frustration of unpredictable symptoms like bloating, gas, and indigestion, gut health challenges can feel overwhelming. We understand. That's why our integrated approach focuses on more than just masking symptoms; we delve into the root causes of your digestive distress to help you improve gut health naturally. Through our specialized gut cleanse programs, we address imbalances in your gut microbiome, supporting optimal digestive health and helping you reclaim control of your well-being.
                 </p>
               </div>
             </div>
@@ -298,7 +296,7 @@ const home = () => {
                                 sizes="100vw"
                                 style={{ width: "auto", height: "auto" }}
                               />
-                            </span>{" "}
+                            </span>{" "}{" "}{" "}
                             Chronic inflammation and bloating
                           </h4>
                         </li>
@@ -314,10 +312,10 @@ const home = () => {
                                 sizes="100vw"
                                 style={{ width: "auto", height: "auto" }}
                               />
-                            </span>{" "}
+                            </span>{" "}{" "}{" "}
                             Compromised nutrient absorption
                           </h4>
-                        </li>{" "}
+                        </li>{" "}{" "}{" "}
                         <li>
                           <h4>
                             <span className="">
@@ -330,7 +328,7 @@ const home = () => {
                                 sizes="100vw"
                                 style={{ width: "auto", height: "auto" }}
                               />
-                            </span>{" "}
+                            </span>{" "}{" "}{" "}
                             Irregular bowel movements
                           </h4>
                         </li>{" "}
@@ -346,7 +344,7 @@ const home = () => {
                                 sizes="100vw"
                                 style={{ width: "auto", height: "auto" }}
                               />
-                            </span>{" "}
+                            </span>{" "}{" "}{" "}
                             Mood fluctuations and anxiety
                           </h4>
                         </li>{" "}
@@ -362,7 +360,7 @@ const home = () => {
                                 sizes="100vw"
                                 style={{ width: "auto", height: "auto" }}
                               />
-                            </span>{" "}
+                            </span>{" "}{" "}{" "}
                             Hormonal imbalances
                           </h4>
                         </li>
@@ -378,7 +376,7 @@ const home = () => {
                                 sizes="100vw"
                                 style={{ width: "auto", height: "auto" }}
                               />
-                            </span>{" "}
+                            </span>{" "}{" "}{" "}
                             Unexplained weight changes
                           </h4>
                         </li>
@@ -394,7 +392,7 @@ const home = () => {
                                 sizes="100vw"
                                 style={{ width: "auto", height: "auto" }}
                               />
-                            </span>{" "}
+                            </span>{" "}{" "}{" "}
                             Skin problems and inflammation{" "}
                           </h4>
                         </li>
@@ -411,7 +409,7 @@ const home = () => {
                                 style={{ width: "auto", height: "auto" }}
                               />
                             </span>{" "}
-                            Autoimmune responses{" "}
+                            Autoimmune responses{" "}{" "}{" "}
                           </h4>
                         </li>
                       </ul>
@@ -429,7 +427,7 @@ const home = () => {
           </div>
           <div className="item-inner-wrapper imageset-hom" data-aos="fade-up">
             <Image
-              src="/Health-home.webp"
+              src="/intestine-problem.jpg"
               width={0}
               height={0}
               sizes="100vw"
@@ -446,7 +444,7 @@ const home = () => {
       >
         <div className="container">
           <div className="row gutters-20">
-            <h2 className="item-title text-center mb-60">Our Promgram</h2>
+            <h2 className="item-title text-center mb-60">Our Programs</h2>
 
             <div
               className="col-lg-4 col-md-6 col-sm-6 col-12"
@@ -465,7 +463,7 @@ const home = () => {
                     />
                   </div>
                   <h3 className="item-title">
-                    <Link href="/our-program">Gut Reset Revolution</Link>
+                    <Link href="/our-program">Gut Reset Revolution™</Link>
                   </h3>
                   <p>
                     Transform your relationship with health through our
@@ -532,9 +530,7 @@ const home = () => {
                     <Link href="/our-program">Gut Intelligence Workshop</Link>
                   </h3>
                   <p>
-                    Discover how a thriving gut ecosystem shapes your physical
-                    and mental wellbeing through this transformative online
-                    workshop.
+                  Your gut is more than just a digestive system - it's your body's second brain and command center for total wellness. In this transformative workshop, dive deep into the fascinating world of your microbiome and discover how it orchestrates everything from your immune response to your emotional wellbeing.
                   </p>
                   <Link href="/our-program" className="link set-btm">
                     Learn More
@@ -605,7 +601,7 @@ const home = () => {
             {/* <div className="col-xl-7 col-lg-4 col-md-10 col-12"></div> */}
             <div className="col-xl-12 col-lg-8 col-md-10 col-12">
               <div className="banner-box-layout1" data-aos="fade-up">
-                <h2 className="item-title">What Our Client Are Saying</h2>
+                <h2 className="item-title">What Our Clients Are Saying</h2>
                 <Carousel
                   autoPlay={true}
                   draggable={true}
@@ -718,7 +714,7 @@ const home = () => {
                     target="_blank"
                     className="item-btn-phone btn-blue theme-btn"
                   >
-                    <span>Call Us: +91 97799 94422 </span>
+                    <span>Call: 9779994422 </span>
                   </a>
                 </div>
               </div>
